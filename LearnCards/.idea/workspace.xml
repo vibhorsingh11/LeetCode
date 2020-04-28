@@ -19,9 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="75234c0c-c440-4f90-9aed-389973978c34" name="Default Changelist" comment="Initial Commit">
+    <list default="true" id="75234c0c-c440-4f90-9aed-389973978c34" name="Default Changelist" comment="Added Problem01_MaxConsecutiveOnes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,13 +54,14 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="org.phoenix.leetcode.learn.arrays" />
       <recent name="org.phoenix.leetcode.learn.Arrays" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.Problem02_EvenNumberTest">
     <configuration name="Problem01_MaxConsecutiveOnesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LearnCards" />
       <extension name="coverage">
@@ -77,8 +77,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Problem02_EvenNumberTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LearnCards" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.phoenix.leetcode.learn.arrays.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.phoenix.leetcode.learn.arrays" />
+      <option name="MAIN_CLASS_NAME" value="org.phoenix.leetcode.learn.arrays.Problem02_EvenNumberTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Problem02_EvenNumberTest" />
         <item itemvalue="JUnit.Problem01_MaxConsecutiveOnesTest" />
       </list>
     </recent_temporary>
@@ -101,7 +117,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587907962218</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added Problem01_MaxConsecutiveOnes">
+      <created>1588010066940</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1588010066941</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -118,36 +141,37 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial Commit" />
+    <MESSAGE value="Added Problem01_MaxConsecutiveOnes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Problem01_MaxConsecutiveOnes" />
   </component>
   <component name="WindowStateProjectService">
     <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1588007610606">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1588007610606" />
-    <state width="661" height="179" key="GridCell.Tab.0.bottom" timestamp="1588009693003">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1588091422122">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="661" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1588009693003" />
-    <state width="661" height="179" key="GridCell.Tab.0.center" timestamp="1588009693002">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1588091422122" />
+    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1588091422122">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="661" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1588009693002" />
-    <state width="661" height="179" key="GridCell.Tab.0.left" timestamp="1588009693001">
+    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1588091422122" />
+    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1588091422122">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="661" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1588009693001" />
-    <state width="661" height="179" key="GridCell.Tab.0.right" timestamp="1588009693002">
+    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1588091422122" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1588091422122">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="661" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1588009693002" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1587907973452">
+    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1588091422122" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1588010071588">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1587907973452" />
-    <state x="450" y="186" width="466" height="435" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1588009221827">
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1588010071588" />
+    <state x="450" y="186" width="466" height="435" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1588091141029">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="450" y="186" width="466" height="435" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1366.728@0.0.1366.728" timestamp="1588009221827" />
+    <state x="450" y="186" width="466" height="435" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1366.728@0.0.1366.728" timestamp="1588091141029" />
   </component>
 </project>
