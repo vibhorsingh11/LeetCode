@@ -10,9 +10,9 @@ class Problem03_SquaresSortedArrayTest {
     @Test
     void sortedSquares() {
 
-        int[] arr = new int[]{-4,-1,0,3,10};
+        int[] arr = new int[]{-4, -1, 0, 3, 10};
         int[] expected = new int[]{0, 1, 9, 16, 100};
 
-        Assertions.assertEquals(expected, test.sortedSquares(arr));
+        Assertions.assertArrayEquals(expected, test.sortedSquares(arr));
     }
 }
