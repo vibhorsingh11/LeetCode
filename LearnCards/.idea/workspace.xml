@@ -19,7 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="75234c0c-c440-4f90-9aed-389973978c34" name="Default Changelist" comment="Added Squares of a Sorted Array">
+    <list default="true" id="75234c0c-c440-4f90-9aed-389973978c34" name="Default Changelist" comment="Added Problem08_CheckIfNandItsDoubleExistTest">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/phoenix/leetcode/learn/arrays/Problem08_CheckIfNandItsDoubleExist.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/phoenix/leetcode/learn/arrays/Problem08_CheckIfNandItsDoubleExistTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -61,8 +63,8 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Problem02_EvenNumberTest">
-    <configuration name="Problem01_MaxConsecutiveOnesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.Problem08_CheckIfNandItsDoubleExistTest.checkIfExist">
+    <configuration name="Problem05_MergeSortedArrayTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LearnCards" />
       <extension name="coverage">
         <pattern>
@@ -71,13 +73,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.phoenix.leetcode.learn.arrays" />
-      <option name="MAIN_CLASS_NAME" value="org.phoenix.leetcode.learn.arrays.Problem01_MaxConsecutiveOnesTest" />
+      <option name="MAIN_CLASS_NAME" value="org.phoenix.leetcode.learn.arrays.Problem05_MergeSortedArrayTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Problem02_EvenNumberTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Problem05_MergeSortedArrayTest.merge" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LearnCards" />
       <extension name="coverage">
         <pattern>
@@ -86,16 +88,68 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.phoenix.leetcode.learn.arrays" />
-      <option name="MAIN_CLASS_NAME" value="org.phoenix.leetcode.learn.arrays.Problem02_EvenNumberTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="org.phoenix.leetcode.learn.arrays.Problem05_MergeSortedArrayTest" />
+      <option name="METHOD_NAME" value="merge" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Problem06_RemoveElementTest.removeElement" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LearnCards" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.phoenix.leetcode.learn.arrays.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.phoenix.leetcode.learn.arrays" />
+      <option name="MAIN_CLASS_NAME" value="org.phoenix.leetcode.learn.arrays.Problem06_RemoveElementTest" />
+      <option name="METHOD_NAME" value="removeElement" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Problem07_RemoveDuplicatesfromSortedArrayTest.removeDuplicates" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LearnCards" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.phoenix.leetcode.learn.arrays.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.phoenix.leetcode.learn.arrays" />
+      <option name="MAIN_CLASS_NAME" value="org.phoenix.leetcode.learn.arrays.Problem07_RemoveDuplicatesfromSortedArrayTest" />
+      <option name="METHOD_NAME" value="removeDuplicates" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Problem08_CheckIfNandItsDoubleExistTest.checkIfExist" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LearnCards" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.phoenix.leetcode.learn.arrays.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.phoenix.leetcode.learn.arrays" />
+      <option name="MAIN_CLASS_NAME" value="org.phoenix.leetcode.learn.arrays.Problem08_CheckIfNandItsDoubleExistTest" />
+      <option name="METHOD_NAME" value="checkIfExist" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Problem02_EvenNumberTest" />
-        <item itemvalue="JUnit.Problem01_MaxConsecutiveOnesTest" />
+        <item itemvalue="JUnit.Problem08_CheckIfNandItsDoubleExistTest.checkIfExist" />
+        <item itemvalue="JUnit.Problem07_RemoveDuplicatesfromSortedArrayTest.removeDuplicates" />
+        <item itemvalue="JUnit.Problem06_RemoveElementTest.removeElement" />
+        <item itemvalue="JUnit.Problem05_MergeSortedArrayTest.merge" />
+        <item itemvalue="JUnit.Problem05_MergeSortedArrayTest" />
       </list>
     </recent_temporary>
   </component>
@@ -138,7 +192,49 @@
       <option name="project" value="LOCAL" />
       <updated>1588269039881</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Added Squares of a Sorted Array">
+      <created>1588269074074</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1588269074074</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Added Problem04 DuplicateZeros">
+      <created>1588356898218</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1588356898218</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Updated Problem03_SquaresSortedArray">
+      <created>1588439877715</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1588439877715</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Added Problem05_MergeSortedArray">
+      <created>1588442112499</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1588442112499</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Added Problem06_RemoveElement">
+      <created>1588503992778</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1588503992778</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Added Problem07_RemoveDuplicatesfromSortedArray">
+      <created>1588504901293</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1588504901293</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -158,40 +254,58 @@
     <MESSAGE value="Added Problem01_MaxConsecutiveOnes" />
     <MESSAGE value="Added Problem02_EvenNumber" />
     <MESSAGE value="Added Squares of a Sorted Array" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Squares of a Sorted Array" />
+    <MESSAGE value="Added Problem04 DuplicateZeros" />
+    <MESSAGE value="Updated Problem03_SquaresSortedArray" />
+    <MESSAGE value="Added Problem05_MergeSortedArray" />
+    <MESSAGE value="Added Problem06_RemoveElement" />
+    <MESSAGE value="Added Problem07_RemoveDuplicatesfromSortedArray" />
+    <MESSAGE value="Added Problem08_CheckIfNandItsDoubleExistTest" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Problem08_CheckIfNandItsDoubleExistTest" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1588007610606">
+    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1588356497848">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1588007610606" />
+    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1588356497848" />
     <state x="363" y="100" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1588268128138">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="363" y="100" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1366.728@0.0.1366.728" timestamp="1588268128138" />
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1588091602670">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1588508909720">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1588091602670" />
-    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1588091602669">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1588508909720" />
+    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1588508909720">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1588091602669" />
-    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1588091602669">
+    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1588508909720" />
+    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1588508909720">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1588091602669" />
-    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1588091602669">
+    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1588508909720" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1588508909720">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1588091602669" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1588269042858">
+    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1588508909720" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1588504903163">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1588269042858" />
-    <state x="450" y="186" width="466" height="435" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1588268410234">
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1588504903163" />
+    <state x="450" y="186" width="466" height="435" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1588508382054">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="450" y="186" width="466" height="435" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1366.728@0.0.1366.728" timestamp="1588268410234" />
+    <state x="450" y="186" width="466" height="435" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1366.728@0.0.1366.728" timestamp="1588508382054" />
+    <state x="0" y="0" width="585" height="728" key="find.popup" timestamp="1588430152457">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="0" y="0" width="585" height="728" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1588430152457" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/LearnCards$Problem02_EvenNumberTest.ic" NAME="Problem02_EvenNumberTest Coverage Results" MODIFIED="1588414459238" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>org.phoenix.leetcode.learn.arrays.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/LearnCards$Problem05_MergeSortedArrayTest.ic" NAME="Problem05_MergeSortedArrayTest Coverage Results" MODIFIED="1588441099738" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>org.phoenix.leetcode.learn.arrays.*</FILTER>
+    </SUITE>
   </component>
 </project>
