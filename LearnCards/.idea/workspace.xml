@@ -25,7 +25,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="75234c0c-c440-4f90-9aed-389973978c34" name="Default Changelist" comment="Added Problem08_CheckIfNandItsDoubleExistTest">
+    <list default="true" id="75234c0c-c440-4f90-9aed-389973978c34" name="Default Changelist" comment="Added Problem10_GreatestElementOnRightSide">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -254,7 +254,14 @@
       <option name="project" value="LOCAL" />
       <updated>1588604355879</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Added Problem10_GreatestElementOnRightSide">
+      <created>1588605166161</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1588605166161</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -293,7 +300,8 @@
     <MESSAGE value="Added Problem07_RemoveDuplicatesfromSortedArray" />
     <MESSAGE value="Added Problem08_CheckIfNandItsDoubleExistTest" />
     <MESSAGE value="Added Problem09_ValidMountainArray" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Problem09_ValidMountainArray" />
+    <MESSAGE value="Added Problem10_GreatestElementOnRightSide" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Problem10_GreatestElementOnRightSide" />
   </component>
   <component name="WindowStateProjectService">
     <state x="163" y="0" key="#Project_Structure" timestamp="1588511629140">
@@ -308,30 +316,30 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="363" y="100" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1366.728@0.0.1366.728" timestamp="1588268128138" />
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1588604126213">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1588612364655">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1588604126213" />
-    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1588604126213">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1588612364655" />
+    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1588612364654">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1588604126213" />
-    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1588604126213">
+    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1588612364654" />
+    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1588612364654">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1588604126213" />
-    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1588604126213">
+    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1588612364654" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1588612364654">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1588604126213" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1588612364654" />
     <state x="163" y="0" key="SettingsEditor" timestamp="1588512172388">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="163" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1588512172388" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1588604358454">
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1588605168188">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1588604358454" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1588605168188" />
     <state x="450" y="186" width="466" height="435" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1588605003018">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -340,6 +348,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="0" y="0" width="585" height="728" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1588430152457" />
+    <state x="74" y="50" key="new project wizard" timestamp="1588612356069">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="74" y="50" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1588612356069" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/LearnCards$Problem02_EvenNumberTest.ic" NAME="Problem02_EvenNumberTest Coverage Results" MODIFIED="1588414459238" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
