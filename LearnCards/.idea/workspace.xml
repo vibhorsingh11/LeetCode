@@ -25,7 +25,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="75234c0c-c440-4f90-9aed-389973978c34" name="Default Changelist" comment="Added Problem02_LinkedListCycle">
+    <list default="true" id="75234c0c-c440-4f90-9aed-389973978c34" name="Default Changelist" comment="Added Problem03_LinkedListCycleII">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -71,7 +71,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Problem03_LinkedListCycleIITest.detectCycle">
+  <component name="RunManager" selected="JUnit.Problem04_IntersectionOfTwoLinkedListsTest.getIntersectionNode">
     <configuration name="Problem01_DesignLinkedListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LearnCards" />
       <extension name="coverage">
@@ -119,17 +119,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Problem14_ThirdMaximumNumberTest.thirdMax" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Problem04_IntersectionOfTwoLinkedListsTest.getIntersectionNode" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LearnCards" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.phoenix.leetcode.learn.arrays.*" />
+          <option name="PATTERN" value="org.phoenix.leetcode.learn.linkedlists.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.phoenix.leetcode.learn.arrays" />
-      <option name="MAIN_CLASS_NAME" value="org.phoenix.leetcode.learn.arrays.Problem14_ThirdMaximumNumberTest" />
-      <option name="METHOD_NAME" value="thirdMax" />
+      <option name="PACKAGE_NAME" value="org.phoenix.leetcode.learn.linkedlists" />
+      <option name="MAIN_CLASS_NAME" value="org.phoenix.leetcode.learn.linkedlists.Problem04_IntersectionOfTwoLinkedListsTest" />
+      <option name="METHOD_NAME" value="getIntersectionNode" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -153,11 +153,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Problem04_IntersectionOfTwoLinkedListsTest.getIntersectionNode" />
         <item itemvalue="JUnit.Problem03_LinkedListCycleIITest.detectCycle" />
         <item itemvalue="JUnit.Problem02_LinkedListCycleTest.hasCycle" />
         <item itemvalue="JUnit.Problem01_DesignLinkedListTest" />
         <item itemvalue="JUnit.Problem15_FindAllNumbersDisappearedInArrayTest.findDisappearedNumbers" />
-        <item itemvalue="JUnit.Problem14_ThirdMaximumNumberTest.thirdMax" />
       </list>
     </recent_temporary>
   </component>
@@ -312,7 +312,14 @@
       <option name="project" value="LOCAL" />
       <updated>1588674560592</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Added Problem03_LinkedListCycleII">
+      <created>1588677394870</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1588677394870</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -359,7 +366,8 @@
     <MESSAGE value="Added Problem15_FindAllNumbersDisappearedInArray" />
     <MESSAGE value="Added Problem01_DesignLinkedList" />
     <MESSAGE value="Added Problem02_LinkedListCycle" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Problem02_LinkedListCycle" />
+    <MESSAGE value="Added Problem03_LinkedListCycleII" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Problem03_LinkedListCycleII" />
   </component>
   <component name="WindowStateProjectService">
     <state x="163" y="0" key="#Project_Structure" timestamp="1588511629140">
@@ -370,38 +378,42 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1588356497848" />
+    <state x="92" y="92" width="1182" height="544" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1588703261490">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="92" y="92" width="1182" height="544" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1366.728@0.0.1366.728" timestamp="1588703261490" />
     <state x="363" y="100" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1588268128138">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="363" y="100" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1366.728@0.0.1366.728" timestamp="1588268128138" />
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1588677274730">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1588682733791">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1588677274730" />
-    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1588677274730">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1588682733791" />
+    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1588682733791">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1588677274730" />
-    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1588677274730">
+    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1588682733791" />
+    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1588682733791">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1588677274730" />
-    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1588677274730">
+    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1588682733791" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1588682733791">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1588677274730" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1588682733791" />
     <state x="163" y="0" key="SettingsEditor" timestamp="1588512172388">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="163" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1588512172388" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1588674562983">
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1588677396926">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1588674562983" />
-    <state x="450" y="186" width="485" height="435" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1588676036226">
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1588677396926" />
+    <state x="450" y="186" width="485" height="435" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1588702572223">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="450" y="186" width="485" height="435" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1366.728@0.0.1366.728" timestamp="1588676036226" />
+    <state x="450" y="186" width="485" height="435" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1366.728@0.0.1366.728" timestamp="1588702572223" />
     <state x="0" y="0" width="585" height="728" key="find.popup" timestamp="1588430152457">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -410,6 +422,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="74" y="50" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1588612356069" />
+    <state x="339" y="162" key="run.anything.popup" timestamp="1588702917565">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1588702917565" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/LearnCards$Problem02_EvenNumberTest.ic" NAME="Problem02_EvenNumberTest Coverage Results" MODIFIED="1588414459238" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
