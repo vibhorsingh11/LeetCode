@@ -25,7 +25,9 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="75234c0c-c440-4f90-9aed-389973978c34" name="Default Changelist" comment="Added Problem11_MoveZeroesTest" />
+    <list default="true" id="75234c0c-c440-4f90-9aed-389973978c34" name="Default Changelist" comment="Added Problem12_SortArrayByParityTest">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,8 +36,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -68,22 +70,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Problem12_SortArrayByParityTest.sortArrayByParity">
-    <configuration name="Problem08_CheckIfNandItsDoubleExistTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="LearnCards" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.phoenix.leetcode.learn.arrays.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.phoenix.leetcode.learn.arrays" />
-      <option name="MAIN_CLASS_NAME" value="org.phoenix.leetcode.learn.arrays.Problem08_CheckIfNandItsDoubleExistTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.Problem13_HeightCheckerTest">
     <configuration name="Problem09_ValidMountainArrayTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LearnCards" />
       <extension name="coverage">
@@ -146,13 +133,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Problem13_HeightCheckerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LearnCards" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.phoenix.leetcode.learn.arrays.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.phoenix.leetcode.learn.arrays" />
+      <option name="MAIN_CLASS_NAME" value="org.phoenix.leetcode.learn.arrays.Problem13_HeightCheckerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Problem13_HeightCheckerTest" />
         <item itemvalue="JUnit.Problem12_SortArrayByParityTest.sortArrayByParity" />
         <item itemvalue="JUnit.Problem11_MoveZeroesTest" />
         <item itemvalue="JUnit.Problem10_GreatestElementOnRightSideTest.replaceElements" />
         <item itemvalue="JUnit.Problem09_ValidMountainArrayTest" />
-        <item itemvalue="JUnit.Problem08_CheckIfNandItsDoubleExistTest" />
       </list>
     </recent_temporary>
   </component>
@@ -265,7 +267,14 @@
       <option name="project" value="LOCAL" />
       <updated>1588662013800</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Added Problem12_SortArrayByParityTest">
+      <created>1588662428098</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1588662428098</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -306,7 +315,8 @@
     <MESSAGE value="Added Problem09_ValidMountainArray" />
     <MESSAGE value="Added Problem10_GreatestElementOnRightSide" />
     <MESSAGE value="Added Problem11_MoveZeroesTest" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Problem11_MoveZeroesTest" />
+    <MESSAGE value="Added Problem12_SortArrayByParityTest" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Problem12_SortArrayByParityTest" />
   </component>
   <component name="WindowStateProjectService">
     <state x="163" y="0" key="#Project_Structure" timestamp="1588511629140">
@@ -321,34 +331,34 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="363" y="100" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1366.728@0.0.1366.728" timestamp="1588268128138" />
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1588612364655">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1588662379784">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1588612364655" />
-    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1588612364654">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1588662379784" />
+    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1588662379784">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1588612364654" />
-    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1588612364654">
+    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1588662379784" />
+    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1588662379784">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1588612364654" />
-    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1588612364654">
+    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1588662379784" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1588662379784">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1588612364654" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1588662379784" />
     <state x="163" y="0" key="SettingsEditor" timestamp="1588512172388">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="163" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1588512172388" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1588662017040">
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1588662456173">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1588662017040" />
-    <state x="450" y="186" width="466" height="435" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1588661802146">
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1588662456173" />
+    <state x="450" y="186" width="466" height="435" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1588662721451">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="450" y="186" width="466" height="435" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1366.728@0.0.1366.728" timestamp="1588661802146" />
+    <state x="450" y="186" width="466" height="435" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1366.728@0.0.1366.728" timestamp="1588662721451" />
     <state x="0" y="0" width="585" height="728" key="find.popup" timestamp="1588430152457">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
