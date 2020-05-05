@@ -25,7 +25,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="75234c0c-c440-4f90-9aed-389973978c34" name="Default Changelist" comment="Added Problem10_GreatestElementOnRightSide" />
+    <list default="true" id="75234c0c-c440-4f90-9aed-389973978c34" name="Default Changelist" comment="Added Problem11_MoveZeroesTest" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,8 +34,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -68,7 +68,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Problem11_MoveZeroesTest">
+  <component name="RunManager" selected="JUnit.Problem12_SortArrayByParityTest.sortArrayByParity">
     <configuration name="Problem08_CheckIfNandItsDoubleExistTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LearnCards" />
       <extension name="coverage">
@@ -80,22 +80,6 @@
       <option name="PACKAGE_NAME" value="org.phoenix.leetcode.learn.arrays" />
       <option name="MAIN_CLASS_NAME" value="org.phoenix.leetcode.learn.arrays.Problem08_CheckIfNandItsDoubleExistTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Problem08_CheckIfNandItsDoubleExistTest.checkIfExist" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="LearnCards" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.phoenix.leetcode.learn.arrays.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.phoenix.leetcode.learn.arrays" />
-      <option name="MAIN_CLASS_NAME" value="org.phoenix.leetcode.learn.arrays.Problem08_CheckIfNandItsDoubleExistTest" />
-      <option name="METHOD_NAME" value="checkIfExist" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -146,13 +130,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Problem12_SortArrayByParityTest.sortArrayByParity" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LearnCards" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.phoenix.leetcode.learn.arrays.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.phoenix.leetcode.learn.arrays" />
+      <option name="MAIN_CLASS_NAME" value="org.phoenix.leetcode.learn.arrays.Problem12_SortArrayByParityTest" />
+      <option name="METHOD_NAME" value="sortArrayByParity" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Problem12_SortArrayByParityTest.sortArrayByParity" />
         <item itemvalue="JUnit.Problem11_MoveZeroesTest" />
         <item itemvalue="JUnit.Problem10_GreatestElementOnRightSideTest.replaceElements" />
         <item itemvalue="JUnit.Problem09_ValidMountainArrayTest" />
         <item itemvalue="JUnit.Problem08_CheckIfNandItsDoubleExistTest" />
-        <item itemvalue="JUnit.Problem08_CheckIfNandItsDoubleExistTest.checkIfExist" />
       </list>
     </recent_temporary>
   </component>
@@ -258,7 +258,14 @@
       <option name="project" value="LOCAL" />
       <updated>1588605166161</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Added Problem11_MoveZeroesTest">
+      <created>1588662013800</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1588662013800</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -298,7 +305,8 @@
     <MESSAGE value="Added Problem08_CheckIfNandItsDoubleExistTest" />
     <MESSAGE value="Added Problem09_ValidMountainArray" />
     <MESSAGE value="Added Problem10_GreatestElementOnRightSide" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Problem10_GreatestElementOnRightSide" />
+    <MESSAGE value="Added Problem11_MoveZeroesTest" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Problem11_MoveZeroesTest" />
   </component>
   <component name="WindowStateProjectService">
     <state x="163" y="0" key="#Project_Structure" timestamp="1588511629140">
@@ -333,14 +341,14 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="163" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1588512172388" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1588605168188">
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1588662017040">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1588605168188" />
-    <state x="450" y="186" width="466" height="435" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1588605003018">
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1588662017040" />
+    <state x="450" y="186" width="466" height="435" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1588661802146">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="450" y="186" width="466" height="435" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1366.728@0.0.1366.728" timestamp="1588605003018" />
+    <state x="450" y="186" width="466" height="435" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1366.728@0.0.1366.728" timestamp="1588661802146" />
     <state x="0" y="0" width="585" height="728" key="find.popup" timestamp="1588430152457">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
