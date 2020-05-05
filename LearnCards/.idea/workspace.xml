@@ -25,7 +25,9 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="75234c0c-c440-4f90-9aed-389973978c34" name="Default Changelist" comment="Added Problem15_FindAllNumbersDisappearedInArray">
+    <list default="true" id="75234c0c-c440-4f90-9aed-389973978c34" name="Default Changelist" comment="Added Problem01_DesignLinkedList">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/phoenix/leetcode/learn/linkedlists/Problem02_LinkedListCycle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/phoenix/leetcode/learn/linkedlists/Problem02_LinkedListCycleTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -71,7 +73,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Problem01_DesignLinkedListTest">
+  <component name="RunManager" selected="JUnit.Problem02_LinkedListCycleTest.hasCycle">
     <configuration name="Problem01_DesignLinkedListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LearnCards" />
       <extension name="coverage">
@@ -87,17 +89,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Problem12_SortArrayByParityTest.sortArrayByParity" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Problem02_LinkedListCycleTest.hasCycle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LearnCards" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.phoenix.leetcode.learn.arrays.*" />
+          <option name="PATTERN" value="org.phoenix.leetcode.learn.linkedlists.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.phoenix.leetcode.learn.arrays" />
-      <option name="MAIN_CLASS_NAME" value="org.phoenix.leetcode.learn.arrays.Problem12_SortArrayByParityTest" />
-      <option name="METHOD_NAME" value="sortArrayByParity" />
+      <option name="PACKAGE_NAME" value="org.phoenix.leetcode.learn.linkedlists" />
+      <option name="MAIN_CLASS_NAME" value="org.phoenix.leetcode.learn.linkedlists.Problem02_LinkedListCycleTest" />
+      <option name="METHOD_NAME" value="hasCycle" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -152,11 +154,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Problem02_LinkedListCycleTest.hasCycle" />
         <item itemvalue="JUnit.Problem01_DesignLinkedListTest" />
         <item itemvalue="JUnit.Problem15_FindAllNumbersDisappearedInArrayTest.findDisappearedNumbers" />
         <item itemvalue="JUnit.Problem14_ThirdMaximumNumberTest.thirdMax" />
         <item itemvalue="JUnit.Problem13_HeightCheckerTest" />
-        <item itemvalue="JUnit.Problem12_SortArrayByParityTest.sortArrayByParity" />
       </list>
     </recent_temporary>
   </component>
@@ -297,7 +299,14 @@
       <option name="project" value="LOCAL" />
       <updated>1588663871246</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Added Problem01_DesignLinkedList">
+      <created>1588669328989</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1588669328989</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -342,7 +351,8 @@
     <MESSAGE value="Added Problem13_HeightChecker" />
     <MESSAGE value="Added Problem14_ThirdMaximumNumberTest" />
     <MESSAGE value="Added Problem15_FindAllNumbersDisappearedInArray" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Problem15_FindAllNumbersDisappearedInArray" />
+    <MESSAGE value="Added Problem01_DesignLinkedList" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Problem01_DesignLinkedList" />
   </component>
   <component name="WindowStateProjectService">
     <state x="163" y="0" key="#Project_Structure" timestamp="1588511629140">
@@ -357,34 +367,34 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="363" y="100" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1366.728@0.0.1366.728" timestamp="1588268128138" />
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1588663836629">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1588673741227">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1588663836629" />
-    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1588663836629">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1588673741227" />
+    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1588673741227">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1588663836629" />
-    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1588663836629">
+    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1588673741227" />
+    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1588673741227">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1588663836629" />
-    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1588663836629">
+    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1588673741227" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1588673741227">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1588663836629" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1588673741227" />
     <state x="163" y="0" key="SettingsEditor" timestamp="1588512172388">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="163" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1588512172388" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1588663873955">
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1588669330610">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1588663873955" />
-    <state x="450" y="186" width="485" height="435" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1588668687255">
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1588669330610" />
+    <state x="450" y="186" width="485" height="435" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1588671139976">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="450" y="186" width="485" height="435" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1366.728@0.0.1366.728" timestamp="1588668687255" />
+    <state x="450" y="186" width="485" height="435" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1366.728@0.0.1366.728" timestamp="1588671139976" />
     <state x="0" y="0" width="585" height="728" key="find.popup" timestamp="1588430152457">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
