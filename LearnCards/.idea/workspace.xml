@@ -25,7 +25,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="75234c0c-c440-4f90-9aed-389973978c34" name="Default Changelist" comment="Added Problem05_RemoveNthNodeFromEnd">
+    <list default="true" id="75234c0c-c440-4f90-9aed-389973978c34" name="Default Changelist" comment="Added Problem06_ReverseLinkedList">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -71,23 +71,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Problem06_ReverseLinkedListTest.reverseList">
-    <configuration name="Problem03_LinkedListCycleIITest.detectCycle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="LearnCards" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.phoenix.leetcode.learn.linkedlists.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.phoenix.leetcode.learn.linkedlists" />
-      <option name="MAIN_CLASS_NAME" value="org.phoenix.leetcode.learn.linkedlists.Problem03_LinkedListCycleIITest" />
-      <option name="METHOD_NAME" value="detectCycle" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.Problem07_RemoveLinkedListElementsTest">
     <configuration name="Problem04_IntersectionOfTwoLinkedListsTest.getIntersectionNode" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LearnCards" />
       <extension name="coverage">
@@ -151,13 +135,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Problem07_RemoveLinkedListElementsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LearnCards" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.phoenix.leetcode.learn.linkedlists.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.phoenix.leetcode.learn.linkedlists" />
+      <option name="MAIN_CLASS_NAME" value="org.phoenix.leetcode.learn.linkedlists.Problem07_RemoveLinkedListElementsTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Problem07_RemoveLinkedListElementsTest" />
         <item itemvalue="JUnit.Problem06_ReverseLinkedListTest.reverseList" />
         <item itemvalue="JUnit.Problem05_RemoveNthNodeFromEndTest" />
         <item itemvalue="JUnit.Problem05_RemoveNthNodeFromEndTest.removeNthFromEnd" />
         <item itemvalue="JUnit.Problem04_IntersectionOfTwoLinkedListsTest.getIntersectionNode" />
-        <item itemvalue="JUnit.Problem03_LinkedListCycleIITest.detectCycle" />
       </list>
     </recent_temporary>
   </component>
@@ -333,7 +332,14 @@
       <option name="project" value="LOCAL" />
       <updated>1588705986643</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Added Problem06_ReverseLinkedList">
+      <created>1588751380950</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1588751380950</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -383,7 +389,8 @@
     <MESSAGE value="Added Problem03_LinkedListCycleII" />
     <MESSAGE value="Added Problem04_IntersectionOfTwoLinkedLists" />
     <MESSAGE value="Added Problem05_RemoveNthNodeFromEnd" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Problem05_RemoveNthNodeFromEnd" />
+    <MESSAGE value="Added Problem06_ReverseLinkedList" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Problem06_ReverseLinkedList" />
   </component>
   <component name="WindowStateProjectService">
     <state x="163" y="0" key="#Project_Structure" timestamp="1588511629140">
@@ -402,34 +409,34 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="363" y="100" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1366.728@0.0.1366.728" timestamp="1588268128138" />
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1588751085520">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1588774277797">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1588751085520" />
-    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1588751085520">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1588774277797" />
+    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1588774277797">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1588751085520" />
-    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1588751085520">
+    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1588774277797" />
+    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1588774277797">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1588751085520" />
-    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1588751085520">
+    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1588774277797" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1588774277797">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1588751085520" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1588774277797" />
     <state x="163" y="0" key="SettingsEditor" timestamp="1588512172388">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="163" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1588512172388" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1588705988561">
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1588751383196">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1588705988561" />
-    <state x="450" y="186" width="485" height="435" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1588746987116">
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1588751383196" />
+    <state x="450" y="186" width="485" height="435" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1588773061887">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="450" y="186" width="485" height="435" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1366.728@0.0.1366.728" timestamp="1588746987116" />
+    <state x="450" y="186" width="485" height="435" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1366.728@0.0.1366.728" timestamp="1588773061887" />
     <state x="0" y="0" width="585" height="728" key="find.popup" timestamp="1588430152457">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
