@@ -69,23 +69,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Problem12_FlattenMultilevelListTest.flatten">
-    <configuration name="Problem08_PalindromeLinkedListTest.isPalindrome" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="LearnCards" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.phoenix.leetcode.learn.linkedlists.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.phoenix.leetcode.learn.linkedlists" />
-      <option name="MAIN_CLASS_NAME" value="org.phoenix.leetcode.learn.linkedlists.Problem08_PalindromeLinkedListTest" />
-      <option name="METHOD_NAME" value="isPalindrome" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.Problem13_RandomPointerTest.copyRandomList">
     <configuration name="Problem09_OddEvenLinkedListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LearnCards" />
       <extension name="coverage">
@@ -149,13 +133,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Problem13_RandomPointerTest.copyRandomList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LearnCards" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.phoenix.leetcode.learn.linkedlists.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.phoenix.leetcode.learn.linkedlists" />
+      <option name="MAIN_CLASS_NAME" value="org.phoenix.leetcode.learn.linkedlists.Problem13_RandomPointerTest" />
+      <option name="METHOD_NAME" value="copyRandomList" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Problem13_RandomPointerTest.copyRandomList" />
         <item itemvalue="JUnit.Problem12_FlattenMultilevelListTest.flatten" />
         <item itemvalue="JUnit.Problem11_AddTwoNumbersTest.addTwoNumbers" />
         <item itemvalue="JUnit.Problem10_MergeTwoSortedListsTest.mergeTwoLists" />
         <item itemvalue="JUnit.Problem09_OddEvenLinkedListTest" />
-        <item itemvalue="JUnit.Problem08_PalindromeLinkedListTest.isPalindrome" />
       </list>
     </recent_temporary>
   </component>
