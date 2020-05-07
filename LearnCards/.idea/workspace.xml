@@ -25,7 +25,11 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="75234c0c-c440-4f90-9aed-389973978c34" name="Default Changelist" comment="Added Problem12_FlattenMultilevelList" />
+    <list default="true" id="75234c0c-c440-4f90-9aed-389973978c34" name="Default Changelist" comment="Added Problem13_RandomPointer">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/phoenix/leetcode/learn/linkedlists/Problem14_RotateList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/phoenix/leetcode/learn/linkedlists/Problem14_RotateListTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -62,29 +66,18 @@
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
       <recent name="org.phoenix.leetcode.learn.linkedlists" />
+      <recent name="org.phoenix.leetcode.learn" />
       <recent name="org.phoenix.leetcode.learn.arrays" />
       <recent name="org.phoenix.leetcode.learn.Arrays" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="org.phoenix.leetcode.learn.linkedlists" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Problem13_RandomPointerTest.copyRandomList">
-    <configuration name="Problem09_OddEvenLinkedListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="LearnCards" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.phoenix.leetcode.learn.linkedlists.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.phoenix.leetcode.learn.linkedlists" />
-      <option name="MAIN_CLASS_NAME" value="org.phoenix.leetcode.learn.linkedlists.Problem09_OddEvenLinkedListTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.Problem14_RotateListTest.rotateRight">
     <configuration name="Problem10_MergeTwoSortedListsTest.mergeTwoLists" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LearnCards" />
       <extension name="coverage">
@@ -149,13 +142,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Problem14_RotateListTest.rotateRight" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LearnCards" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.phoenix.leetcode.learn.linkedlists.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.phoenix.leetcode.learn.linkedlists" />
+      <option name="MAIN_CLASS_NAME" value="org.phoenix.leetcode.learn.linkedlists.Problem14_RotateListTest" />
+      <option name="METHOD_NAME" value="rotateRight" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Problem14_RotateListTest.rotateRight" />
         <item itemvalue="JUnit.Problem13_RandomPointerTest.copyRandomList" />
         <item itemvalue="JUnit.Problem12_FlattenMultilevelListTest.flatten" />
         <item itemvalue="JUnit.Problem11_AddTwoNumbersTest.addTwoNumbers" />
         <item itemvalue="JUnit.Problem10_MergeTwoSortedListsTest.mergeTwoLists" />
-        <item itemvalue="JUnit.Problem09_OddEvenLinkedListTest" />
       </list>
     </recent_temporary>
   </component>
@@ -380,7 +389,14 @@
       <option name="project" value="LOCAL" />
       <updated>1588838249362</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="Added Problem13_RandomPointer">
+      <created>1588864335769</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1588864335769</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -408,7 +424,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added Problem04 DuplicateZeros" />
     <MESSAGE value="Updated Problem03_SquaresSortedArray" />
     <MESSAGE value="Added Problem05_MergeSortedArray" />
     <MESSAGE value="Added Problem06_RemoveElement" />
@@ -433,7 +448,8 @@
     <MESSAGE value="Added Problem10_MergeTwoSortedLists" />
     <MESSAGE value="Added Problem11_AddTwoNumbers" />
     <MESSAGE value="Added Problem12_FlattenMultilevelList" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Problem12_FlattenMultilevelList" />
+    <MESSAGE value="Added Problem13_RandomPointer" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Problem13_RandomPointer" />
   </component>
   <component name="WindowStateProjectService">
     <state x="163" y="0" key="#Project_Structure" timestamp="1588511629140">
@@ -452,34 +468,54 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="363" y="100" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1366.728@0.0.1366.728" timestamp="1588268128138" />
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1588849337258">
+    <state x="460" y="233" width="447" height="268" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1588864115244">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1588849337258" />
-    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1588849337258">
+    <state x="460" y="233" width="447" height="268" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1366.728@0.0.1366.728" timestamp="1588864115244" />
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1588870897542">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1588849337258" />
-    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1588849337258">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1588870897542" />
+    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1588870897542">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1588849337258" />
-    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1588849337258">
+    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1588870897542" />
+    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1588870897542">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1588849337258" />
+    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1588870897542" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1588870897542">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1588870897542" />
+    <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1588869690591">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1588869690591" />
+    <state width="1323" height="223" key="GridCell.Tab.1.center" timestamp="1588869690591">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1588869690591" />
+    <state width="1323" height="223" key="GridCell.Tab.1.left" timestamp="1588869690591">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1588869690591" />
+    <state width="1323" height="223" key="GridCell.Tab.1.right" timestamp="1588869690591">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1588869690591" />
     <state x="163" y="0" key="SettingsEditor" timestamp="1588512172388">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="163" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1588512172388" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1588838252405">
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1588864337720">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1588838252405" />
-    <state x="450" y="186" width="485" height="435" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1588837810560">
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1588864337720" />
+    <state x="450" y="186" width="485" height="435" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1588869296756">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="450" y="186" width="485" height="435" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1366.728@0.0.1366.728" timestamp="1588837810560" />
+    <state x="450" y="186" width="485" height="435" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1366.728@0.0.1366.728" timestamp="1588869296756" />
     <state x="0" y="0" width="585" height="728" key="find.popup" timestamp="1588430152457">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
