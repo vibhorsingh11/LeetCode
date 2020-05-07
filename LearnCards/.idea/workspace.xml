@@ -25,9 +25,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="75234c0c-c440-4f90-9aed-389973978c34" name="Default Changelist" comment="Added Problem11_AddTwoNumbers">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="75234c0c-c440-4f90-9aed-389973978c34" name="Default Changelist" comment="Added Problem12_FlattenMultilevelList" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -375,7 +373,14 @@
       <option name="project" value="LOCAL" />
       <updated>1588791626651</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="Added Problem12_FlattenMultilevelList">
+      <created>1588838249362</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1588838249362</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -403,7 +408,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added Squares of a Sorted Array" />
     <MESSAGE value="Added Problem04 DuplicateZeros" />
     <MESSAGE value="Updated Problem03_SquaresSortedArray" />
     <MESSAGE value="Added Problem05_MergeSortedArray" />
@@ -428,7 +432,8 @@
     <MESSAGE value="Added Problem09_OddEvenLinkedList" />
     <MESSAGE value="Added Problem10_MergeTwoSortedLists" />
     <MESSAGE value="Added Problem11_AddTwoNumbers" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Problem11_AddTwoNumbers" />
+    <MESSAGE value="Added Problem12_FlattenMultilevelList" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Problem12_FlattenMultilevelList" />
   </component>
   <component name="WindowStateProjectService">
     <state x="163" y="0" key="#Project_Structure" timestamp="1588511629140">
@@ -447,30 +452,30 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="363" y="100" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1366.728@0.0.1366.728" timestamp="1588268128138" />
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1588791697547">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1588849337258">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1588791697547" />
-    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1588791697545">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1588849337258" />
+    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1588849337258">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1588791697545" />
-    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1588791697544">
+    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1588849337258" />
+    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1588849337258">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1588791697544" />
-    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1588791697546">
+    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1588849337258" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1588849337258">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1588791697545" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1588849337258" />
     <state x="163" y="0" key="SettingsEditor" timestamp="1588512172388">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="163" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1588512172388" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1588791629892">
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1588838252405">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1588791629892" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1588838252405" />
     <state x="450" y="186" width="485" height="435" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1588837810560">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
