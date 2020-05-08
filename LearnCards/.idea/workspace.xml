@@ -26,6 +26,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="75234c0c-c440-4f90-9aed-389973978c34" name="Default Changelist" comment="Added Problem14_RotateList">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/phoenix/leetcode/learn/binarytree/Problem01_PreorderTraversal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/phoenix/leetcode/learn/binarytree/Problem01_PreorderTraversalTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -63,6 +65,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="org.phoenix.leetcode.learn.binarytree" />
       <recent name="org.phoenix.leetcode.learn.linkedlists" />
       <recent name="org.phoenix.leetcode.learn" />
       <recent name="org.phoenix.leetcode.learn.arrays" />
@@ -75,18 +78,18 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Problem14_RotateListTest.rotateRight">
-    <configuration name="Problem10_MergeTwoSortedListsTest.mergeTwoLists" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.Problem01_PreorderTraversalTest.preorderTraversal">
+    <configuration name="Problem01_PreorderTraversalTest.preorderTraversal" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LearnCards" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.phoenix.leetcode.learn.linkedlists.*" />
+          <option name="PATTERN" value="org.phoenix.leetcode.learn.binarytree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.phoenix.leetcode.learn.linkedlists" />
-      <option name="MAIN_CLASS_NAME" value="org.phoenix.leetcode.learn.linkedlists.Problem10_MergeTwoSortedListsTest" />
-      <option name="METHOD_NAME" value="mergeTwoLists" />
+      <option name="PACKAGE_NAME" value="org.phoenix.leetcode.learn.binarytree" />
+      <option name="MAIN_CLASS_NAME" value="org.phoenix.leetcode.learn.binarytree.Problem01_PreorderTraversalTest" />
+      <option name="METHOD_NAME" value="preorderTraversal" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -158,11 +161,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Problem01_PreorderTraversalTest.preorderTraversal" />
         <item itemvalue="JUnit.Problem14_RotateListTest.rotateRight" />
         <item itemvalue="JUnit.Problem13_RandomPointerTest.copyRandomList" />
         <item itemvalue="JUnit.Problem12_FlattenMultilevelListTest.flatten" />
         <item itemvalue="JUnit.Problem11_AddTwoNumbersTest.addTwoNumbers" />
-        <item itemvalue="JUnit.Problem10_MergeTwoSortedListsTest.mergeTwoLists" />
       </list>
     </recent_temporary>
   </component>
@@ -517,10 +520,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1588873791267" />
-    <state x="450" y="186" width="485" height="435" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1588869296756">
+    <state x="450" y="186" width="486" height="435" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1588959436718">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="450" y="186" width="485" height="435" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1366.728@0.0.1366.728" timestamp="1588869296756" />
+    <state x="450" y="186" width="486" height="435" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1366.728@0.0.1366.728" timestamp="1588959436718" />
     <state x="0" y="0" width="585" height="728" key="find.popup" timestamp="1588430152457">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
