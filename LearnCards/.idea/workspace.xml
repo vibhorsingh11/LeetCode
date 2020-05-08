@@ -25,9 +25,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="75234c0c-c440-4f90-9aed-389973978c34" name="Default Changelist" comment="Added Problem13_RandomPointer">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/phoenix/leetcode/learn/linkedlists/Problem14_RotateList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/phoenix/leetcode/learn/linkedlists/Problem14_RotateListTest.java" afterDir="false" />
+    <list default="true" id="75234c0c-c440-4f90-9aed-389973978c34" name="Default Changelist" comment="Added Problem14_RotateList">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -396,7 +394,14 @@
       <option name="project" value="LOCAL" />
       <updated>1588864335769</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="Added Problem14_RotateList">
+      <created>1588873789397</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1588873789397</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -424,7 +429,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Updated Problem03_SquaresSortedArray" />
     <MESSAGE value="Added Problem05_MergeSortedArray" />
     <MESSAGE value="Added Problem06_RemoveElement" />
     <MESSAGE value="Added Problem07_RemoveDuplicatesfromSortedArray" />
@@ -449,7 +453,8 @@
     <MESSAGE value="Added Problem11_AddTwoNumbers" />
     <MESSAGE value="Added Problem12_FlattenMultilevelList" />
     <MESSAGE value="Added Problem13_RandomPointer" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Problem13_RandomPointer" />
+    <MESSAGE value="Added Problem14_RotateList" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Problem14_RotateList" />
   </component>
   <component name="WindowStateProjectService">
     <state x="163" y="0" key="#Project_Structure" timestamp="1588511629140">
@@ -472,46 +477,46 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="460" y="233" width="447" height="268" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1366.728@0.0.1366.728" timestamp="1588864115244" />
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1588870897542">
+    <state width="1323" height="223" key="GridCell.Tab.0.bottom" timestamp="1588873832077">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1588870897542" />
-    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1588870897542">
+    <state width="1323" height="223" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1588873832077" />
+    <state width="1323" height="223" key="GridCell.Tab.0.center" timestamp="1588873832077">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1588870897542" />
-    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1588870897542">
+    <state width="1323" height="223" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1588873832077" />
+    <state width="1323" height="223" key="GridCell.Tab.0.left" timestamp="1588873832077">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1588870897542" />
-    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1588870897542">
+    <state width="1323" height="223" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1588873832077" />
+    <state width="1323" height="223" key="GridCell.Tab.0.right" timestamp="1588873832077">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1588870897542" />
-    <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1588869690591">
+    <state width="1323" height="223" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1588873832077" />
+    <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1588873832078">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1588869690591" />
-    <state width="1323" height="223" key="GridCell.Tab.1.center" timestamp="1588869690591">
+    <state width="1323" height="223" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1588873832078" />
+    <state width="1323" height="223" key="GridCell.Tab.1.center" timestamp="1588873832077">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1588869690591" />
-    <state width="1323" height="223" key="GridCell.Tab.1.left" timestamp="1588869690591">
+    <state width="1323" height="223" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1588873832077" />
+    <state width="1323" height="223" key="GridCell.Tab.1.left" timestamp="1588873832077">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1588869690591" />
-    <state width="1323" height="223" key="GridCell.Tab.1.right" timestamp="1588869690591">
+    <state width="1323" height="223" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1588873832077" />
+    <state width="1323" height="223" key="GridCell.Tab.1.right" timestamp="1588873832077">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1588869690591" />
+    <state width="1323" height="223" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1588873832077" />
     <state x="163" y="0" key="SettingsEditor" timestamp="1588512172388">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="163" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1588512172388" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1588864337720">
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1588873791267">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1588864337720" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1588873791267" />
     <state x="450" y="186" width="485" height="435" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1588869296756">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
