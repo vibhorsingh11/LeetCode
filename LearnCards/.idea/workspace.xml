@@ -25,9 +25,9 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="75234c0c-c440-4f90-9aed-389973978c34" name="Default Changelist" comment="Added Problem14_RotateList">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/phoenix/leetcode/learn/binarytree/Problem01_PreorderTraversal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/phoenix/leetcode/learn/binarytree/Problem01_PreorderTraversalTest.java" afterDir="false" />
+    <list default="true" id="75234c0c-c440-4f90-9aed-389973978c34" name="Default Changelist" comment="Added Problem01_PreorderTraversal">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/phoenix/leetcode/learn/binarytree/Problem02_InorderTraversal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/phoenix/leetcode/learn/binarytree/Problem02_InorderTraversalTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -78,7 +78,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Problem01_PreorderTraversalTest.preorderTraversal">
+  <component name="RunManager" selected="JUnit.Problem02_InorderTraversalTest">
     <configuration name="Problem01_PreorderTraversalTest.preorderTraversal" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LearnCards" />
       <extension name="coverage">
@@ -95,18 +95,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Problem11_AddTwoNumbersTest.addTwoNumbers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Problem02_InorderTraversalTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LearnCards" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.phoenix.leetcode.learn.linkedlists.*" />
+          <option name="PATTERN" value="org.phoenix.leetcode.learn.binarytree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.phoenix.leetcode.learn.linkedlists" />
-      <option name="MAIN_CLASS_NAME" value="org.phoenix.leetcode.learn.linkedlists.Problem11_AddTwoNumbersTest" />
-      <option name="METHOD_NAME" value="addTwoNumbers" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="org.phoenix.leetcode.learn.binarytree" />
+      <option name="MAIN_CLASS_NAME" value="org.phoenix.leetcode.learn.binarytree.Problem02_InorderTraversalTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -161,11 +160,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Problem02_InorderTraversalTest" />
         <item itemvalue="JUnit.Problem01_PreorderTraversalTest.preorderTraversal" />
         <item itemvalue="JUnit.Problem14_RotateListTest.rotateRight" />
         <item itemvalue="JUnit.Problem13_RandomPointerTest.copyRandomList" />
         <item itemvalue="JUnit.Problem12_FlattenMultilevelListTest.flatten" />
-        <item itemvalue="JUnit.Problem11_AddTwoNumbersTest.addTwoNumbers" />
       </list>
     </recent_temporary>
   </component>
@@ -404,7 +403,14 @@
       <option name="project" value="LOCAL" />
       <updated>1588873789397</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="Added Problem01_PreorderTraversal">
+      <created>1588961379724</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1588961379724</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -432,7 +438,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added Problem05_MergeSortedArray" />
     <MESSAGE value="Added Problem06_RemoveElement" />
     <MESSAGE value="Added Problem07_RemoveDuplicatesfromSortedArray" />
     <MESSAGE value="Added Problem08_CheckIfNandItsDoubleExistTest" />
@@ -457,7 +462,8 @@
     <MESSAGE value="Added Problem12_FlattenMultilevelList" />
     <MESSAGE value="Added Problem13_RandomPointer" />
     <MESSAGE value="Added Problem14_RotateList" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Problem14_RotateList" />
+    <MESSAGE value="Added Problem01_PreorderTraversal" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Problem01_PreorderTraversal" />
   </component>
   <component name="WindowStateProjectService">
     <state x="163" y="0" key="#Project_Structure" timestamp="1588511629140">
@@ -480,22 +486,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="460" y="233" width="447" height="268" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1366.728@0.0.1366.728" timestamp="1588864115244" />
-    <state width="1323" height="223" key="GridCell.Tab.0.bottom" timestamp="1588873832077">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1588964095085">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1588873832077" />
-    <state width="1323" height="223" key="GridCell.Tab.0.center" timestamp="1588873832077">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1588964095085" />
+    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1588964095085">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1588873832077" />
-    <state width="1323" height="223" key="GridCell.Tab.0.left" timestamp="1588873832077">
+    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1588964095085" />
+    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1588964095085">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1588873832077" />
-    <state width="1323" height="223" key="GridCell.Tab.0.right" timestamp="1588873832077">
+    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1588964095085" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1588964095085">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1588873832077" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1588964095085" />
     <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1588873832078">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -516,10 +522,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="163" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1588512172388" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1588873791267">
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1588961383318">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1588873791267" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1588961383318" />
     <state x="450" y="186" width="486" height="435" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1588959436718">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
