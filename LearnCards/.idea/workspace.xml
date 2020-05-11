@@ -25,7 +25,9 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="75234c0c-c440-4f90-9aed-389973978c34" name="Default Changelist" comment="Added Problem03_PostorderTraversal" />
+    <list default="true" id="75234c0c-c440-4f90-9aed-389973978c34" name="Default Changelist" comment="Added Problem03_PostorderTraversal">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -74,7 +76,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Problem03_PostorderTraversalTest.postorderTraversal">
+  <component name="RunManager" selected="JUnit.Problem04_LevelOrderTraversalTest.levelOrder">
     <configuration name="Problem01_PreorderTraversalTest.preorderTraversal" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LearnCards" />
       <extension name="coverage">
@@ -122,17 +124,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Problem13_RandomPointerTest.copyRandomList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Problem04_LevelOrderTraversalTest.levelOrder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LearnCards" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.phoenix.leetcode.learn.linkedlists.*" />
+          <option name="PATTERN" value="org.phoenix.leetcode.learn.binarytree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.phoenix.leetcode.learn.linkedlists" />
-      <option name="MAIN_CLASS_NAME" value="org.phoenix.leetcode.learn.linkedlists.Problem13_RandomPointerTest" />
-      <option name="METHOD_NAME" value="copyRandomList" />
+      <option name="PACKAGE_NAME" value="org.phoenix.leetcode.learn.binarytree" />
+      <option name="MAIN_CLASS_NAME" value="org.phoenix.leetcode.learn.binarytree.Problem04_LevelOrderTraversalTest" />
+      <option name="METHOD_NAME" value="levelOrder" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -156,11 +158,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Problem04_LevelOrderTraversalTest.levelOrder" />
         <item itemvalue="JUnit.Problem03_PostorderTraversalTest.postorderTraversal" />
         <item itemvalue="JUnit.Problem02_InorderTraversalTest" />
         <item itemvalue="JUnit.Problem01_PreorderTraversalTest.preorderTraversal" />
         <item itemvalue="JUnit.Problem14_RotateListTest.rotateRight" />
-        <item itemvalue="JUnit.Problem13_RandomPointerTest.copyRandomList" />
       </list>
     </recent_temporary>
   </component>
@@ -536,10 +538,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1589038739164" />
-    <state x="450" y="186" width="486" height="435" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1589038545280">
+    <state x="450" y="186" width="486" height="435" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1589207194642">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="450" y="186" width="486" height="435" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1366.728@0.0.1366.728" timestamp="1589038545280" />
+    <state x="450" y="186" width="486" height="435" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1366.728@0.0.1366.728" timestamp="1589207194642" />
     <state x="0" y="0" width="585" height="728" key="find.popup" timestamp="1588430152457">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
