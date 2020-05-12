@@ -25,7 +25,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="75234c0c-c440-4f90-9aed-389973978c34" name="Default Changelist" comment="Added Problem04_LevelOrderTraversal">
+    <list default="true" id="75234c0c-c440-4f90-9aed-389973978c34" name="Default Changelist" comment="Added Problem05_MaximumDepthBinaryTree">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -76,23 +76,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Problem05_MaximumDepthBinaryTreeTest.maxDepth">
-    <configuration name="Problem01_PreorderTraversalTest.preorderTraversal" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="LearnCards" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.phoenix.leetcode.learn.binarytree.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.phoenix.leetcode.learn.binarytree" />
-      <option name="MAIN_CLASS_NAME" value="org.phoenix.leetcode.learn.binarytree.Problem01_PreorderTraversalTest" />
-      <option name="METHOD_NAME" value="preorderTraversal" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.Problem06_SymmetricTreeTest.isSymmetric">
     <configuration name="Problem02_InorderTraversalTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LearnCards" />
       <extension name="coverage">
@@ -156,13 +140,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Problem06_SymmetricTreeTest.isSymmetric" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LearnCards" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.phoenix.leetcode.learn.binarytree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.phoenix.leetcode.learn.binarytree" />
+      <option name="MAIN_CLASS_NAME" value="org.phoenix.leetcode.learn.binarytree.Problem06_SymmetricTreeTest" />
+      <option name="METHOD_NAME" value="isSymmetric" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Problem06_SymmetricTreeTest.isSymmetric" />
         <item itemvalue="JUnit.Problem05_MaximumDepthBinaryTreeTest.maxDepth" />
         <item itemvalue="JUnit.Problem04_LevelOrderTraversalTest.levelOrder" />
         <item itemvalue="JUnit.Problem03_PostorderTraversalTest.postorderTraversal" />
         <item itemvalue="JUnit.Problem02_InorderTraversalTest" />
-        <item itemvalue="JUnit.Problem01_PreorderTraversalTest.preorderTraversal" />
       </list>
     </recent_temporary>
   </component>
@@ -429,7 +429,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589207776194</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="Added Problem05_MaximumDepthBinaryTree">
+      <created>1589216972900</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1589216972900</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -457,7 +464,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added Problem09_ValidMountainArray" />
     <MESSAGE value="Added Problem10_GreatestElementOnRightSide" />
     <MESSAGE value="Added Problem11_MoveZeroesTest" />
     <MESSAGE value="Added Problem12_SortArrayByParityTest" />
@@ -482,7 +488,8 @@
     <MESSAGE value="Added Problem02_InorderTraversal" />
     <MESSAGE value="Added Problem03_PostorderTraversal" />
     <MESSAGE value="Added Problem04_LevelOrderTraversal" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Problem04_LevelOrderTraversal" />
+    <MESSAGE value="Added Problem05_MaximumDepthBinaryTree" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Problem05_MaximumDepthBinaryTree" />
   </component>
   <component name="WindowStateProjectService">
     <state x="163" y="0" key="#Project_Structure" timestamp="1588511629140">
@@ -505,50 +512,54 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="460" y="233" width="447" height="268" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1366.728@0.0.1366.728" timestamp="1588864115244" />
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1589207737964">
+    <state width="395" height="466" key="DebuggerActiveHint" timestamp="1589218644343">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1589207737964" />
-    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1589207737964">
+    <state width="395" height="466" key="DebuggerActiveHint/0.0.1366.728@0.0.1366.728" timestamp="1589218644343" />
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1589282977258">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1589207737964" />
-    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1589207737964">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1589282977258" />
+    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1589282977258">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1589207737964" />
-    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1589207737964">
+    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1589282977258" />
+    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1589282977258">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1589207737964" />
-    <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1588873832078">
+    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1589282977258" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1589282977258">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1588873832078" />
-    <state width="1323" height="223" key="GridCell.Tab.1.center" timestamp="1588873832077">
+    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1589282977258" />
+    <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1589221080382">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1588873832077" />
-    <state width="1323" height="223" key="GridCell.Tab.1.left" timestamp="1588873832077">
+    <state width="1323" height="223" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1589221080382" />
+    <state width="1323" height="223" key="GridCell.Tab.1.center" timestamp="1589221080382">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1588873832077" />
-    <state width="1323" height="223" key="GridCell.Tab.1.right" timestamp="1588873832077">
+    <state width="1323" height="223" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1589221080382" />
+    <state width="1323" height="223" key="GridCell.Tab.1.left" timestamp="1589221080382">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1588873832077" />
+    <state width="1323" height="223" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1589221080382" />
+    <state width="1323" height="223" key="GridCell.Tab.1.right" timestamp="1589221080382">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1589221080382" />
     <state x="163" y="0" key="SettingsEditor" timestamp="1588512172388">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="163" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1588512172388" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1589207778907">
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1589216974529">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1589207778907" />
-    <state x="450" y="186" width="486" height="435" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1589216759490">
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1589216974529" />
+    <state x="450" y="186" width="486" height="435" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1589217724307">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="450" y="186" width="486" height="435" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1366.728@0.0.1366.728" timestamp="1589216759490" />
+    <state x="450" y="186" width="486" height="435" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1366.728@0.0.1366.728" timestamp="1589217724307" />
     <state x="0" y="0" width="585" height="728" key="find.popup" timestamp="1588430152457">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -557,10 +568,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="74" y="50" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1588612356069" />
-    <state x="339" y="162" width="672" height="677" key="run.anything.popup" timestamp="1588789608908">
+    <state x="339" y="162" width="672" height="677" key="run.anything.popup" timestamp="1589216917031">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="339" y="162" width="672" height="677" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1588789608908" />
+    <state x="339" y="162" width="672" height="677" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1589216917031" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/LearnCards$Problem02_EvenNumberTest.ic" NAME="Problem02_EvenNumberTest Coverage Results" MODIFIED="1588414459238" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
