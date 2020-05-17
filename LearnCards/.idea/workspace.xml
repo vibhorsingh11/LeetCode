@@ -25,7 +25,9 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="75234c0c-c440-4f90-9aed-389973978c34" name="Default Changelist" comment="Added Problem10_NextRightPointersNode">
+    <list default="true" id="75234c0c-c440-4f90-9aed-389973978c34" name="Default Changelist" comment="Added Problem11_NextRightPointersNodeII">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/phoenix/leetcode/learn/binarytree/Problem12_LowestCommonAncestor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/phoenix/leetcode/learn/binarytree/Problem12_LowestCommonAncestorTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -76,22 +78,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Problem11_NextRightPointersNodeIITest.connect">
-    <configuration name="Problem07_PathSumTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="LearnCards" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.phoenix.leetcode.learn.binarytree.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.phoenix.leetcode.learn.binarytree" />
-      <option name="MAIN_CLASS_NAME" value="org.phoenix.leetcode.learn.binarytree.Problem07_PathSumTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.Problem12_LowestCommonAncestorTest.lowestCommonAncestor">
     <configuration name="Problem08_TreeFromInorderAndPostorderTraversalTest.buildTree" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LearnCards" />
       <extension name="coverage">
@@ -156,13 +143,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Problem12_LowestCommonAncestorTest.lowestCommonAncestor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LearnCards" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.phoenix.leetcode.learn.binarytree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.phoenix.leetcode.learn.binarytree" />
+      <option name="MAIN_CLASS_NAME" value="org.phoenix.leetcode.learn.binarytree.Problem12_LowestCommonAncestorTest" />
+      <option name="METHOD_NAME" value="lowestCommonAncestor" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Problem12_LowestCommonAncestorTest.lowestCommonAncestor" />
         <item itemvalue="JUnit.Problem11_NextRightPointersNodeIITest.connect" />
         <item itemvalue="JUnit.Problem10_NextRightPointersNodeTest.connect" />
         <item itemvalue="JUnit.Problem09_BinaryTreeFromPreorderAndInorderTest.buildTree" />
         <item itemvalue="JUnit.Problem08_TreeFromInorderAndPostorderTraversalTest.buildTree" />
-        <item itemvalue="JUnit.Problem07_PathSumTest" />
       </list>
     </recent_temporary>
   </component>
@@ -471,7 +474,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589611012345</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="Added Problem11_NextRightPointersNodeII">
+      <created>1589651886792</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1589651886792</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -499,7 +509,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added Problem15_FindAllNumbersDisappearedInArray" />
     <MESSAGE value="Added Problem01_DesignLinkedList" />
     <MESSAGE value="Added Problem02_LinkedListCycle" />
     <MESSAGE value="Added Problem03_LinkedListCycleII" />
@@ -524,7 +533,8 @@
     <MESSAGE value="Added Problem08_TreeFromInorderAndPostorderTraversal" />
     <MESSAGE value="Added Problem09_BinaryTreeFromPreorderAndInorder" />
     <MESSAGE value="Added Problem10_NextRightPointersNode" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Problem10_NextRightPointersNode" />
+    <MESSAGE value="Added Problem11_NextRightPointersNodeII" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Problem11_NextRightPointersNodeII" />
   </component>
   <component name="WindowStateProjectService">
     <state x="163" y="0" key="#Project_Structure" timestamp="1588511629140">
@@ -551,50 +561,50 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="424" height="466" key="DebuggerActiveHint/0.0.1366.728@0.0.1366.728" timestamp="1589612761617" />
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1589651791461">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1589715306940">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1589651791461" />
-    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1589651791460">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1589715306940" />
+    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1589715306940">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1589651791460" />
-    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1589651791460">
+    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1589715306940" />
+    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1589715306940">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1589651791460" />
-    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1589651791460">
+    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1589715306940" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1589715306940">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1589651791460" />
-    <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1589639394460">
+    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1589715306940" />
+    <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1589715167156">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1589639394460" />
-    <state width="1323" height="223" key="GridCell.Tab.1.center" timestamp="1589639394460">
+    <state width="1323" height="223" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1589715167156" />
+    <state width="1323" height="223" key="GridCell.Tab.1.center" timestamp="1589715167155">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1589639394460" />
-    <state width="1323" height="223" key="GridCell.Tab.1.left" timestamp="1589639394460">
+    <state width="1323" height="223" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1589715167155" />
+    <state width="1323" height="223" key="GridCell.Tab.1.left" timestamp="1589715167155">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1589639394460" />
-    <state width="1323" height="223" key="GridCell.Tab.1.right" timestamp="1589639394460">
+    <state width="1323" height="223" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1589715167155" />
+    <state width="1323" height="223" key="GridCell.Tab.1.right" timestamp="1589715167155">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1589639394460" />
+    <state width="1323" height="223" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1589715167155" />
     <state x="163" y="0" key="SettingsEditor" timestamp="1588512172388">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="163" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1588512172388" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1589611015269">
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1589651888791">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1589611015269" />
-    <state x="450" y="186" width="486" height="435" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1589611221035">
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1589651888791" />
+    <state x="450" y="186" width="486" height="435" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1589713532906">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="450" y="186" width="486" height="435" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1366.728@0.0.1366.728" timestamp="1589611221035" />
+    <state x="450" y="186" width="486" height="435" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1366.728@0.0.1366.728" timestamp="1589713532906" />
     <state x="0" y="0" width="585" height="728" key="find.popup" timestamp="1588430152457">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -618,6 +628,11 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="JUnit">
+        <watch expression="root" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/LearnCards$Problem02_EvenNumberTest.ic" NAME="Problem02_EvenNumberTest Coverage Results" MODIFIED="1588414459238" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
