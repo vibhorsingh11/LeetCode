@@ -78,7 +78,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Problem01_DesignCircularQueueTest">
+  <component name="RunManager" selected="JUnit.Problem02_NumberOfIslandsTest.numIslands">
     <configuration name="Problem01_DesignCircularQueueTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LearnCards" />
       <extension name="coverage">
@@ -94,17 +94,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Problem10_NextRightPointersNodeTest.connect" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Problem02_NumberOfIslandsTest.numIslands" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LearnCards" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.phoenix.leetcode.learn.binarytree.*" />
+          <option name="PATTERN" value="org.phoenix.leetcode.learn.queue_stack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.phoenix.leetcode.learn.binarytree" />
-      <option name="MAIN_CLASS_NAME" value="org.phoenix.leetcode.learn.binarytree.Problem10_NextRightPointersNodeTest" />
-      <option name="METHOD_NAME" value="connect" />
+      <option name="PACKAGE_NAME" value="org.phoenix.leetcode.learn.queue_stack" />
+      <option name="MAIN_CLASS_NAME" value="org.phoenix.leetcode.learn.queue_stack.Problem02_NumberOfIslandsTest" />
+      <option name="METHOD_NAME" value="numIslands" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -160,11 +160,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Problem02_NumberOfIslandsTest.numIslands" />
         <item itemvalue="JUnit.Problem01_DesignCircularQueueTest" />
         <item itemvalue="JUnit.Problem13_SerializeAndDeserializeTest.serialize" />
         <item itemvalue="JUnit.Problem12_LowestCommonAncestorTest.lowestCommonAncestor" />
         <item itemvalue="JUnit.Problem11_NextRightPointersNodeIITest.connect" />
-        <item itemvalue="JUnit.Problem10_NextRightPointersNodeTest.connect" />
       </list>
     </recent_temporary>
   </component>
@@ -574,22 +574,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="424" height="466" key="DebuggerActiveHint/0.0.1366.728@0.0.1366.728" timestamp="1589738753989" />
-    <state width="1323" height="223" key="GridCell.Tab.0.bottom" timestamp="1589808549737">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1589824536614">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1589808549737" />
-    <state width="1323" height="223" key="GridCell.Tab.0.center" timestamp="1589808549737">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1589824536614" />
+    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1589824536614">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1589808549737" />
-    <state width="1323" height="223" key="GridCell.Tab.0.left" timestamp="1589808549736">
+    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1589824536614" />
+    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1589824536614">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1589808549736" />
-    <state width="1323" height="223" key="GridCell.Tab.0.right" timestamp="1589808549737">
+    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1589824536614" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1589824536614">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1589808549737" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1589824536614" />
     <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1589808549739">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -618,10 +618,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1589808418321" />
-    <state x="450" y="186" width="498" height="435" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1589805752098">
+    <state x="450" y="186" width="498" height="435" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1589823933032">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="450" y="186" width="498" height="435" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1366.728@0.0.1366.728" timestamp="1589805752098" />
+    <state x="450" y="186" width="498" height="435" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1366.728@0.0.1366.728" timestamp="1589823933032" />
     <state x="0" y="0" width="585" height="728" key="find.popup" timestamp="1588430152457">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
