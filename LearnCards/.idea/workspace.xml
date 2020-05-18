@@ -25,9 +25,10 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="75234c0c-c440-4f90-9aed-389973978c34" name="Default Changelist" comment="Added Problem12_LowestCommonAncestor">
+    <list default="true" id="75234c0c-c440-4f90-9aed-389973978c34" name="Default Changelist" comment="Added Problem01_DesignCircularQueue">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/phoenix/leetcode/learn/binarytree/Problem13_SerializeAndDeserialize.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/phoenix/leetcode/learn/binarytree/Problem13_SerializeAndDeserializeTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/phoenix/leetcode/learn/binarytree/Problem12_LowestCommonAncestorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/phoenix/leetcode/learn/binarytree/Problem12_LowestCommonAncestorTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -486,7 +487,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589716282892</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="Added Problem01_DesignCircularQueue">
+      <created>1589808415507</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1589808415507</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -514,7 +522,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added Problem02_LinkedListCycle" />
     <MESSAGE value="Added Problem03_LinkedListCycleII" />
     <MESSAGE value="Added Problem04_IntersectionOfTwoLinkedLists" />
     <MESSAGE value="Added Problem05_RemoveNthNodeFromEnd" />
@@ -539,7 +546,8 @@
     <MESSAGE value="Added Problem10_NextRightPointersNode" />
     <MESSAGE value="Added Problem11_NextRightPointersNodeII" />
     <MESSAGE value="Added Problem12_LowestCommonAncestor" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Problem12_LowestCommonAncestor" />
+    <MESSAGE value="Added Problem01_DesignCircularQueue" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Problem01_DesignCircularQueue" />
   </component>
   <component name="WindowStateProjectService">
     <state x="163" y="0" key="#Project_Structure" timestamp="1588511629140">
@@ -566,46 +574,50 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="424" height="466" key="DebuggerActiveHint/0.0.1366.728@0.0.1366.728" timestamp="1589738753989" />
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1589808186059">
+    <state width="1323" height="223" key="GridCell.Tab.0.bottom" timestamp="1589808549737">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1589808186059" />
-    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1589808186059">
+    <state width="1323" height="223" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1589808549737" />
+    <state width="1323" height="223" key="GridCell.Tab.0.center" timestamp="1589808549737">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1589808186059" />
-    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1589808186059">
+    <state width="1323" height="223" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1589808549737" />
+    <state width="1323" height="223" key="GridCell.Tab.0.left" timestamp="1589808549736">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1589808186059" />
-    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1589808186059">
+    <state width="1323" height="223" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1589808549736" />
+    <state width="1323" height="223" key="GridCell.Tab.0.right" timestamp="1589808549737">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1589808186059" />
-    <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1589807688941">
+    <state width="1323" height="223" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1589808549737" />
+    <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1589808549739">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1589807688941" />
-    <state width="1323" height="223" key="GridCell.Tab.1.center" timestamp="1589807688940">
+    <state width="1323" height="223" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1589808549739" />
+    <state width="1323" height="223" key="GridCell.Tab.1.center" timestamp="1589808549738">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1589807688940" />
-    <state width="1323" height="223" key="GridCell.Tab.1.left" timestamp="1589807688940">
+    <state width="1323" height="223" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1589808549738" />
+    <state width="1323" height="223" key="GridCell.Tab.1.left" timestamp="1589808549738">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1589807688940" />
-    <state width="1323" height="223" key="GridCell.Tab.1.right" timestamp="1589807688940">
+    <state width="1323" height="223" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1589808549738" />
+    <state width="1323" height="223" key="GridCell.Tab.1.right" timestamp="1589808549738">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1589807688940" />
+    <state width="1323" height="223" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1589808549738" />
+    <state x="424" y="66" key="RollbackChangesDialog" timestamp="1589808492285">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="424" y="66" key="RollbackChangesDialog/0.0.1366.728@0.0.1366.728" timestamp="1589808492285" />
     <state x="163" y="0" key="SettingsEditor" timestamp="1588512172388">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="163" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1588512172388" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1589716286140">
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1589808418321">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1589716286140" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1589808418321" />
     <state x="450" y="186" width="498" height="435" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1589805752098">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
