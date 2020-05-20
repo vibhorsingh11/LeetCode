@@ -26,8 +26,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="75234c0c-c440-4f90-9aed-389973978c34" name="Default Changelist" comment="Added Problem02_NumberOfIslands">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/phoenix/leetcode/learn/binarytree/Problem13_SerializeAndDeserialize.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/phoenix/leetcode/learn/binarytree/Problem13_SerializeAndDeserializeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +76,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Problem02_NumberOfIslandsTest.numIslands">
+  <component name="RunManager" selected="JUnit.Problem03_OpenTheLockTest">
     <configuration name="Problem01_DesignCircularQueueTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LearnCards" />
       <extension name="coverage">
@@ -109,18 +108,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Problem11_NextRightPointersNodeIITest.connect" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Problem03_OpenTheLockTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LearnCards" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.phoenix.leetcode.learn.binarytree.*" />
+          <option name="PATTERN" value="org.phoenix.leetcode.learn.queue_stack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.phoenix.leetcode.learn.binarytree" />
-      <option name="MAIN_CLASS_NAME" value="org.phoenix.leetcode.learn.binarytree.Problem11_NextRightPointersNodeIITest" />
-      <option name="METHOD_NAME" value="connect" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="org.phoenix.leetcode.learn.queue_stack" />
+      <option name="MAIN_CLASS_NAME" value="org.phoenix.leetcode.learn.queue_stack.Problem03_OpenTheLockTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -159,11 +157,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Problem03_OpenTheLockTest" />
         <item itemvalue="JUnit.Problem02_NumberOfIslandsTest.numIslands" />
         <item itemvalue="JUnit.Problem01_DesignCircularQueueTest" />
         <item itemvalue="JUnit.Problem13_SerializeAndDeserializeTest.serialize" />
         <item itemvalue="JUnit.Problem12_LowestCommonAncestorTest.lowestCommonAncestor" />
-        <item itemvalue="JUnit.Problem11_NextRightPointersNodeIITest.connect" />
       </list>
     </recent_temporary>
   </component>
@@ -500,7 +498,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589824579464</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="Added Problem13_SerializeAndDeserialize">
+      <created>1589902895111</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1589902895111</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -528,7 +533,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added Problem04_IntersectionOfTwoLinkedLists" />
     <MESSAGE value="Added Problem05_RemoveNthNodeFromEnd" />
     <MESSAGE value="Added Problem06_ReverseLinkedList" />
     <MESSAGE value="Added Problem07_RemoveLinkedListElements" />
@@ -553,7 +557,8 @@
     <MESSAGE value="Added Problem12_LowestCommonAncestor" />
     <MESSAGE value="Added Problem01_DesignCircularQueue" />
     <MESSAGE value="Added Problem02_NumberOfIslands" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Problem02_NumberOfIslands" />
+    <MESSAGE value="Added Problem13_SerializeAndDeserialize" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Problem13_SerializeAndDeserialize" />
   </component>
   <component name="WindowStateProjectService">
     <state x="163" y="0" key="#Project_Structure" timestamp="1588511629140">
@@ -580,22 +585,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="424" height="466" key="DebuggerActiveHint/0.0.1366.728@0.0.1366.728" timestamp="1589738753989" />
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1589824929942">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1589962923860">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1589824929942" />
-    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1589824929942">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1589962923860" />
+    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1589962923860">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1589824929942" />
-    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1589824929942">
+    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1589962923860" />
+    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1589962923859">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1589824929942" />
-    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1589824929942">
+    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1589962923859" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1589962923860">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1589824929942" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1589962923860" />
     <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1589808549739">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -620,14 +625,14 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="163" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1588512172388" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1589824582725">
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1589902897044">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1589824582725" />
-    <state x="450" y="186" width="498" height="435" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1589823933032">
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1589902897044" />
+    <state x="450" y="186" width="498" height="435" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1589958269602">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="450" y="186" width="498" height="435" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1366.728@0.0.1366.728" timestamp="1589823933032" />
+    <state x="450" y="186" width="498" height="435" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1366.728@0.0.1366.728" timestamp="1589958269602" />
     <state x="0" y="0" width="585" height="728" key="find.popup" timestamp="1588430152457">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
