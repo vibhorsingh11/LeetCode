@@ -25,7 +25,10 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="75234c0c-c440-4f90-9aed-389973978c34" name="Default Changelist" comment="Added Problem02_NumberOfIslands" />
+    <list default="true" id="75234c0c-c440-4f90-9aed-389973978c34" name="Default Changelist" comment="Added Problem02_NumberOfIslands">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/phoenix/leetcode/learn/queue_stack/Problem03_OpenTheLock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/phoenix/leetcode/learn/queue_stack/Problem03_OpenTheLockTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
