@@ -26,6 +26,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="75234c0c-c440-4f90-9aed-389973978c34" name="Default Changelist" comment="Added Problem03_OpenTheLock">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/phoenix/leetcode/learn/queue_stack/Problem05_MinStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/phoenix/leetcode/learn/queue_stack/Problem05_MinStackTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -76,7 +78,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Problem03_OpenTheLockTest">
+  <component name="RunManager" selected="JUnit.Problem05_MinStackTest.push">
     <configuration name="Problem01_DesignCircularQueueTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LearnCards" />
       <extension name="coverage">
@@ -123,17 +125,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Problem12_LowestCommonAncestorTest.lowestCommonAncestor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Problem05_MinStackTest.push" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LearnCards" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.phoenix.leetcode.learn.binarytree.*" />
+          <option name="PATTERN" value="org.phoenix.leetcode.learn.queue_stack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.phoenix.leetcode.learn.binarytree" />
-      <option name="MAIN_CLASS_NAME" value="org.phoenix.leetcode.learn.binarytree.Problem12_LowestCommonAncestorTest" />
-      <option name="METHOD_NAME" value="lowestCommonAncestor" />
+      <option name="PACKAGE_NAME" value="org.phoenix.leetcode.learn.queue_stack" />
+      <option name="MAIN_CLASS_NAME" value="org.phoenix.leetcode.learn.queue_stack.Problem05_MinStackTest" />
+      <option name="METHOD_NAME" value="push" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -157,11 +159,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Problem05_MinStackTest.push" />
         <item itemvalue="JUnit.Problem03_OpenTheLockTest" />
         <item itemvalue="JUnit.Problem02_NumberOfIslandsTest.numIslands" />
         <item itemvalue="JUnit.Problem01_DesignCircularQueueTest" />
         <item itemvalue="JUnit.Problem13_SerializeAndDeserializeTest.serialize" />
-        <item itemvalue="JUnit.Problem12_LowestCommonAncestorTest.lowestCommonAncestor" />
       </list>
     </recent_temporary>
   </component>
@@ -636,10 +638,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1589902897044" />
-    <state x="450" y="186" width="498" height="435" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1589958269602">
+    <state x="450" y="186" width="498" height="435" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1590314552696">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="450" y="186" width="498" height="435" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1366.728@0.0.1366.728" timestamp="1589958269602" />
+    <state x="450" y="186" width="498" height="435" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1366.728@0.0.1366.728" timestamp="1590314552696" />
     <state x="0" y="0" width="585" height="728" key="find.popup" timestamp="1588430152457">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
