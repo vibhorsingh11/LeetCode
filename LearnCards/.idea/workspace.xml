@@ -25,7 +25,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="75234c0c-c440-4f90-9aed-389973978c34" name="Default Changelist" comment="Added Problem05_MinStack">
+    <list default="true" id="75234c0c-c440-4f90-9aed-389973978c34" name="Default Changelist" comment="update Problem05_MinStack">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -76,22 +76,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Problem06_ValidParenthesesTest.isValid">
-    <configuration name="Problem01_DesignCircularQueueTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="LearnCards" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.phoenix.leetcode.learn.queue_stack.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.phoenix.leetcode.learn.queue_stack" />
-      <option name="MAIN_CLASS_NAME" value="org.phoenix.leetcode.learn.queue_stack.Problem01_DesignCircularQueueTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.Problem07_DailyTemperaturesTest.dailyTemperatures">
     <configuration name="Problem02_NumberOfIslandsTest.numIslands" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LearnCards" />
       <extension name="coverage">
@@ -155,13 +140,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Problem07_DailyTemperaturesTest.dailyTemperatures" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LearnCards" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.phoenix.leetcode.learn.queue_stack.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.phoenix.leetcode.learn.queue_stack" />
+      <option name="MAIN_CLASS_NAME" value="org.phoenix.leetcode.learn.queue_stack.Problem07_DailyTemperaturesTest" />
+      <option name="METHOD_NAME" value="dailyTemperatures" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Problem07_DailyTemperaturesTest.dailyTemperatures" />
         <item itemvalue="JUnit.Problem06_ValidParenthesesTest.isValid" />
         <item itemvalue="JUnit.Problem05_MinStackTest.push" />
         <item itemvalue="JUnit.Problem03_OpenTheLockTest" />
         <item itemvalue="JUnit.Problem02_NumberOfIslandsTest.numIslands" />
-        <item itemvalue="JUnit.Problem01_DesignCircularQueueTest" />
       </list>
     </recent_temporary>
   </component>
@@ -175,20 +176,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1587907431926</updated>
-    </task>
-    <task id="LOCAL-00001" summary="Initial Commit">
-      <created>1587907962218</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1587907962218</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Added Problem01_MaxConsecutiveOnes">
-      <created>1588010066940</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1588010066941</updated>
     </task>
     <task id="LOCAL-00003" summary="Added Problem02_EvenNumber">
       <created>1588091578123</created>
@@ -519,7 +506,21 @@
       <option name="project" value="LOCAL" />
       <updated>1590314804170</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="Added Problem06_ValidParentheses">
+      <created>1590315270589</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1590315270590</updated>
+    </task>
+    <task id="LOCAL-00051" summary="update Problem05_MinStack">
+      <created>1590315396580</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1590315396580</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -547,8 +548,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added Problem07_RemoveLinkedListElements" />
-    <MESSAGE value="Added Problem08_PalindromeLinkedList" />
     <MESSAGE value="Added Problem09_OddEvenLinkedList" />
     <MESSAGE value="Added Problem10_MergeTwoSortedLists" />
     <MESSAGE value="Added Problem11_AddTwoNumbers" />
@@ -572,7 +571,9 @@
     <MESSAGE value="Added Problem13_SerializeAndDeserialize" />
     <MESSAGE value="Added Problem03_OpenTheLock" />
     <MESSAGE value="Added Problem05_MinStack" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Problem05_MinStack" />
+    <MESSAGE value="Added Problem06_ValidParentheses" />
+    <MESSAGE value="update Problem05_MinStack" />
+    <option name="LAST_COMMIT_MESSAGE" value="update Problem05_MinStack" />
   </component>
   <component name="WindowStateProjectService">
     <state x="163" y="0" key="#Project_Structure" timestamp="1588511629140">
@@ -599,22 +600,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="424" height="466" key="DebuggerActiveHint/0.0.1366.728@0.0.1366.728" timestamp="1589738753989" />
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1590315231583">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1590315428201">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1590315231583" />
-    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1590315231582">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1590315428201" />
+    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1590315428201">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1590315231582" />
-    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1590315231582">
+    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1590315428201" />
+    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1590315428201">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1590315231582" />
-    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1590315231582">
+    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1590315428201" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1590315428201">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1590315231582" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1590315428201" />
     <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1589808549739">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -639,10 +640,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="163" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1588512172388" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1590315273069">
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1590315398791">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1590315273069" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1590315398791" />
     <state x="450" y="186" width="498" height="435" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1590315132346">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
