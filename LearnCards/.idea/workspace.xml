@@ -25,7 +25,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="75234c0c-c440-4f90-9aed-389973978c34" name="Default Changelist" comment="Added Problem07_DailyTemperatures">
+    <list default="true" id="75234c0c-c440-4f90-9aed-389973978c34" name="Default Changelist" comment="Added Evaluate Reverse Polish Notation">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -176,13 +176,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1587907431926</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Added Squares of a Sorted Array">
-      <created>1588269039881</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1588269039881</updated>
     </task>
     <task id="LOCAL-00005" summary="Added Squares of a Sorted Array">
       <created>1588269074074</created>
@@ -520,7 +513,14 @@
       <option name="project" value="LOCAL" />
       <updated>1590412846143</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="Added Evaluate Reverse Polish Notation">
+      <created>1590417904825</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1590417904826</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -548,7 +548,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added Problem10_MergeTwoSortedLists" />
     <MESSAGE value="Added Problem11_AddTwoNumbers" />
     <MESSAGE value="Added Problem12_FlattenMultilevelList" />
     <MESSAGE value="Added Problem13_RandomPointer" />
@@ -573,7 +572,8 @@
     <MESSAGE value="Added Problem06_ValidParentheses" />
     <MESSAGE value="update Problem05_MinStack" />
     <MESSAGE value="Added Problem07_DailyTemperatures" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Problem07_DailyTemperatures" />
+    <MESSAGE value="Added Evaluate Reverse Polish Notation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Evaluate Reverse Polish Notation" />
   </component>
   <component name="WindowStateProjectService">
     <state x="163" y="0" key="#Project_Structure" timestamp="1588511629140">
@@ -604,22 +604,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="424" height="466" key="DebuggerActiveHint/0.0.1366.728@0.0.1366.728" timestamp="1589738753989" />
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1590414646292">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1590422840872">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1590414646292" />
-    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1590414646291">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1590422840872" />
+    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1590422840872">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1590414646291" />
-    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1590414646291">
+    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1590422840871" />
+    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1590422840871">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1590414646291" />
-    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1590414646292">
+    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1590422840871" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1590422840872">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1590414646292" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1590422840872" />
     <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1589808549739">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -644,14 +644,14 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="163" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1588512172388" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1590412848974">
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1590417907424">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1590412848974" />
-    <state x="450" y="186" width="498" height="435" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1590412630407">
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1590417907424" />
+    <state x="450" y="186" width="498" height="435" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1590417727619">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="450" y="186" width="498" height="435" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1366.728@0.0.1366.728" timestamp="1590412630407" />
+    <state x="450" y="186" width="498" height="435" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1366.728@0.0.1366.728" timestamp="1590417727619" />
     <state x="0" y="0" width="585" height="728" key="find.popup" timestamp="1588430152457">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
