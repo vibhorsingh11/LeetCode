@@ -76,22 +76,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Problem08_EvaluateReversePolishNotationTest.evalRPN">
-    <configuration name="Problem03_OpenTheLockTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="LearnCards" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.phoenix.leetcode.learn.queue_stack.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.phoenix.leetcode.learn.queue_stack" />
-      <option name="MAIN_CLASS_NAME" value="org.phoenix.leetcode.learn.queue_stack.Problem03_OpenTheLockTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.Problem09_CloneGraphTest.cloneGraph">
     <configuration name="Problem05_MinStackTest.push" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LearnCards" />
       <extension name="coverage">
@@ -156,13 +141,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Problem09_CloneGraphTest.cloneGraph" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LearnCards" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.phoenix.leetcode.learn.queue_stack.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.phoenix.leetcode.learn.queue_stack" />
+      <option name="MAIN_CLASS_NAME" value="org.phoenix.leetcode.learn.queue_stack.Problem09_CloneGraphTest" />
+      <option name="METHOD_NAME" value="cloneGraph" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Problem09_CloneGraphTest.cloneGraph" />
         <item itemvalue="JUnit.Problem08_EvaluateReversePolishNotationTest.evalRPN" />
         <item itemvalue="JUnit.Problem07_DailyTemperaturesTest.dailyTemperatures" />
         <item itemvalue="JUnit.Problem06_ValidParenthesesTest.isValid" />
         <item itemvalue="JUnit.Problem05_MinStackTest.push" />
-        <item itemvalue="JUnit.Problem03_OpenTheLockTest" />
       </list>
     </recent_temporary>
   </component>
@@ -648,10 +649,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1590417907424" />
-    <state x="450" y="186" width="498" height="435" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1590417727619">
+    <state x="450" y="186" width="498" height="435" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1590764243746">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="450" y="186" width="498" height="435" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1366.728@0.0.1366.728" timestamp="1590417727619" />
+    <state x="450" y="186" width="498" height="435" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1366.728@0.0.1366.728" timestamp="1590764243746" />
     <state x="0" y="0" width="585" height="728" key="find.popup" timestamp="1588430152457">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
