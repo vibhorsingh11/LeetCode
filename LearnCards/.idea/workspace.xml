@@ -25,7 +25,9 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="75234c0c-c440-4f90-9aed-389973978c34" name="Default Changelist" comment="Added Evaluate Reverse Polish Notation">
+    <list default="true" id="75234c0c-c440-4f90-9aed-389973978c34" name="Default Changelist" comment="Added Problem09_CloneGraph">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/phoenix/leetcode/learn/queue_stack/Problem11_BinaryTreeInorderTraversal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/phoenix/leetcode/learn/queue_stack/Problem11_BinaryTreeInorderTraversalTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -76,23 +78,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Problem09_CloneGraphTest.cloneGraph">
-    <configuration name="Problem05_MinStackTest.push" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="LearnCards" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.phoenix.leetcode.learn.queue_stack.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.phoenix.leetcode.learn.queue_stack" />
-      <option name="MAIN_CLASS_NAME" value="org.phoenix.leetcode.learn.queue_stack.Problem05_MinStackTest" />
-      <option name="METHOD_NAME" value="push" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.Problem11_BinaryTreeInorderTraversalTest.inorderTraversal">
     <configuration name="Problem06_ValidParenthesesTest.isValid" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LearnCards" />
       <extension name="coverage">
@@ -157,13 +143,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Problem11_BinaryTreeInorderTraversalTest.inorderTraversal" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LearnCards" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.phoenix.leetcode.learn.queue_stack.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.phoenix.leetcode.learn.queue_stack" />
+      <option name="MAIN_CLASS_NAME" value="org.phoenix.leetcode.learn.queue_stack.Problem11_BinaryTreeInorderTraversalTest" />
+      <option name="METHOD_NAME" value="inorderTraversal" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Problem11_BinaryTreeInorderTraversalTest.inorderTraversal" />
         <item itemvalue="JUnit.Problem09_CloneGraphTest.cloneGraph" />
         <item itemvalue="JUnit.Problem08_EvaluateReversePolishNotationTest.evalRPN" />
         <item itemvalue="JUnit.Problem07_DailyTemperaturesTest.dailyTemperatures" />
         <item itemvalue="JUnit.Problem06_ValidParenthesesTest.isValid" />
-        <item itemvalue="JUnit.Problem05_MinStackTest.push" />
       </list>
     </recent_temporary>
   </component>
@@ -177,13 +179,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1587907431926</updated>
-    </task>
-    <task id="LOCAL-00005" summary="Added Squares of a Sorted Array">
-      <created>1588269074074</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1588269074074</updated>
     </task>
     <task id="LOCAL-00006" summary="Added Problem04 DuplicateZeros">
       <created>1588356898218</created>
@@ -521,7 +516,14 @@
       <option name="project" value="LOCAL" />
       <updated>1590417904826</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="Added Problem09_CloneGraph">
+      <created>1590765005855</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1590765005856</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -549,7 +551,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added Problem11_AddTwoNumbers" />
     <MESSAGE value="Added Problem12_FlattenMultilevelList" />
     <MESSAGE value="Added Problem13_RandomPointer" />
     <MESSAGE value="Added Problem14_RotateList" />
@@ -574,7 +575,8 @@
     <MESSAGE value="update Problem05_MinStack" />
     <MESSAGE value="Added Problem07_DailyTemperatures" />
     <MESSAGE value="Added Evaluate Reverse Polish Notation" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Evaluate Reverse Polish Notation" />
+    <MESSAGE value="Added Problem09_CloneGraph" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Problem09_CloneGraph" />
   </component>
   <component name="WindowStateProjectService">
     <state x="163" y="0" key="#Project_Structure" timestamp="1588511629140">
@@ -605,22 +607,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="424" height="466" key="DebuggerActiveHint/0.0.1366.728@0.0.1366.728" timestamp="1589738753989" />
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1590422840872">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1590771011938">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1590422840872" />
-    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1590422840872">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1590771011938" />
+    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1590771011938">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1590422840871" />
-    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1590422840871">
+    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1590771011938" />
+    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1590771011938">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1590422840871" />
-    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1590422840872">
+    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1590771011938" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1590771011938">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1590422840872" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1590771011938" />
     <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1589808549739">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -645,14 +647,14 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="163" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1588512172388" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1590417907424">
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1590765009197">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1590417907424" />
-    <state x="450" y="186" width="498" height="435" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1590764243746">
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1590765009197" />
+    <state x="450" y="186" width="498" height="435" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1590770497057">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="450" y="186" width="498" height="435" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1366.728@0.0.1366.728" timestamp="1590764243746" />
+    <state x="450" y="186" width="498" height="435" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1366.728@0.0.1366.728" timestamp="1590770497057" />
     <state x="0" y="0" width="585" height="728" key="find.popup" timestamp="1588430152457">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
