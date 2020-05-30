@@ -25,9 +25,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="75234c0c-c440-4f90-9aed-389973978c34" name="Default Changelist" comment="Added Problem09_CloneGraph">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/phoenix/leetcode/learn/queue_stack/Problem11_BinaryTreeInorderTraversal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/phoenix/leetcode/learn/queue_stack/Problem11_BinaryTreeInorderTraversalTest.java" afterDir="false" />
+    <list default="true" id="75234c0c-c440-4f90-9aed-389973978c34" name="Default Changelist" comment="Added Problem11_BinaryTreeInorderTraversal">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -179,13 +177,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1587907431926</updated>
-    </task>
-    <task id="LOCAL-00006" summary="Added Problem04 DuplicateZeros">
-      <created>1588356898218</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1588356898218</updated>
     </task>
     <task id="LOCAL-00007" summary="Updated Problem03_SquaresSortedArray">
       <created>1588439877715</created>
@@ -523,7 +514,14 @@
       <option name="project" value="LOCAL" />
       <updated>1590765005856</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="Added Problem11_BinaryTreeInorderTraversal">
+      <created>1590771345830</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1590771345830</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -551,7 +549,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added Problem12_FlattenMultilevelList" />
     <MESSAGE value="Added Problem13_RandomPointer" />
     <MESSAGE value="Added Problem14_RotateList" />
     <MESSAGE value="Added Problem01_PreorderTraversal" />
@@ -576,7 +573,8 @@
     <MESSAGE value="Added Problem07_DailyTemperatures" />
     <MESSAGE value="Added Evaluate Reverse Polish Notation" />
     <MESSAGE value="Added Problem09_CloneGraph" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Problem09_CloneGraph" />
+    <MESSAGE value="Added Problem11_BinaryTreeInorderTraversal" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Problem11_BinaryTreeInorderTraversal" />
   </component>
   <component name="WindowStateProjectService">
     <state x="163" y="0" key="#Project_Structure" timestamp="1588511629140">
@@ -607,22 +605,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="424" height="466" key="DebuggerActiveHint/0.0.1366.728@0.0.1366.728" timestamp="1589738753989" />
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1590771011938">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1590772963357">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1590771011938" />
-    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1590771011938">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1590772963357" />
+    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1590772963356">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1590771011938" />
-    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1590771011938">
+    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1590772963356" />
+    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1590772963356">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1590771011938" />
-    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1590771011938">
+    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1590772963356" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1590772963357">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1590771011938" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1590772963357" />
     <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1589808549739">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -647,10 +645,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="163" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1588512172388" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1590765009197">
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1590771347670">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1590765009197" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1590771347670" />
     <state x="450" y="186" width="498" height="435" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1590770497057">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
