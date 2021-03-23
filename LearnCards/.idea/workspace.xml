@@ -29,6 +29,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="75234c0c-c440-4f90-9aed-389973978c34" name="Default Changelist" comment="Added Problem11_BinaryTreeInorderTraversal">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/phoenix/leetcode/learn/recursion/Problem03_ReverseLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/phoenix/leetcode/learn/recursion/Problem03_ReverseLinkedListTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -80,7 +82,7 @@
       <recent name="org.phoenix.leetcode.learn" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Problem02_SwapNodesInPairsTest.swapPairs">
+  <component name="RunManager" selected="JUnit.Problem03_ReverseLinkedListTest.reverseList">
     <configuration name="Problem01_ReverseStringTest.reverseString" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LearnCards" />
       <extension name="coverage">
@@ -113,17 +115,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Problem08_EvaluateReversePolishNotationTest.evalRPN" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Problem03_ReverseLinkedListTest.reverseList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LearnCards" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.phoenix.leetcode.learn.queue_stack.*" />
+          <option name="PATTERN" value="org.phoenix.leetcode.learn.recursion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.phoenix.leetcode.learn.queue_stack" />
-      <option name="MAIN_CLASS_NAME" value="org.phoenix.leetcode.learn.queue_stack.Problem08_EvaluateReversePolishNotationTest" />
-      <option name="METHOD_NAME" value="evalRPN" />
+      <option name="PACKAGE_NAME" value="org.phoenix.leetcode.learn.recursion" />
+      <option name="MAIN_CLASS_NAME" value="org.phoenix.leetcode.learn.recursion.Problem03_ReverseLinkedListTest" />
+      <option name="METHOD_NAME" value="reverseList" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -163,11 +165,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Problem03_ReverseLinkedListTest.reverseList" />
         <item itemvalue="JUnit.Problem02_SwapNodesInPairsTest.swapPairs" />
         <item itemvalue="JUnit.Problem01_ReverseStringTest.reverseString" />
         <item itemvalue="JUnit.Problem11_BinaryTreeInorderTraversalTest.inorderTraversal" />
         <item itemvalue="JUnit.Problem09_CloneGraphTest.cloneGraph" />
-        <item itemvalue="JUnit.Problem08_EvaluateReversePolishNotationTest.evalRPN" />
       </list>
     </recent_temporary>
   </component>
@@ -182,13 +184,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1587907431926</updated>
-    </task>
-    <task id="LOCAL-00009" summary="Added Problem06_RemoveElement">
-      <created>1588503992778</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1588503992778</updated>
     </task>
     <task id="LOCAL-00010" summary="Added Problem07_RemoveDuplicatesfromSortedArray">
       <created>1588504901293</created>
@@ -526,7 +521,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616414060212</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="Added Problem 02 Swap Nodes In Pairs">
+      <created>1616497981983</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1616497981983</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -554,7 +556,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added Problem01_PreorderTraversal" />
     <MESSAGE value="Added Problem02_InorderTraversal" />
     <MESSAGE value="Added Problem03_PostorderTraversal" />
     <MESSAGE value="Added Problem04_LevelOrderTraversal" />
@@ -579,7 +580,8 @@
     <MESSAGE value="Added Problem11_BinaryTreeInorderTraversal" />
     <MESSAGE value="updated dependencies" />
     <MESSAGE value="Added Problem 01 Reverse String" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Problem 01 Reverse String" />
+    <MESSAGE value="Added Problem 02 Swap Nodes In Pairs" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Problem 02 Swap Nodes In Pairs" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -593,6 +595,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/org/phoenix/leetcode/learn/queue_stack/Problem01_DesignCircularQueue.java</url>
           <line>40</line>
           <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/phoenix/leetcode/learn/recursion/Problem02_SwapNodesInPairs.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
