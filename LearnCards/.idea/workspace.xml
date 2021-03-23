@@ -80,7 +80,7 @@
       <recent name="org.phoenix.leetcode.learn" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Problem01_ReverseStringTest.reverseString">
+  <component name="RunManager" selected="JUnit.Problem02_SwapNodesInPairsTest.swapPairs">
     <configuration name="Problem01_ReverseStringTest.reverseString" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LearnCards" />
       <extension name="coverage">
@@ -97,17 +97,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Problem07_DailyTemperaturesTest.dailyTemperatures" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Problem02_SwapNodesInPairsTest.swapPairs" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LearnCards" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.phoenix.leetcode.learn.queue_stack.*" />
+          <option name="PATTERN" value="org.phoenix.leetcode.learn.recursion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.phoenix.leetcode.learn.queue_stack" />
-      <option name="MAIN_CLASS_NAME" value="org.phoenix.leetcode.learn.queue_stack.Problem07_DailyTemperaturesTest" />
-      <option name="METHOD_NAME" value="dailyTemperatures" />
+      <option name="PACKAGE_NAME" value="org.phoenix.leetcode.learn.recursion" />
+      <option name="MAIN_CLASS_NAME" value="org.phoenix.leetcode.learn.recursion.Problem02_SwapNodesInPairsTest" />
+      <option name="METHOD_NAME" value="swapPairs" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -163,11 +163,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Problem02_SwapNodesInPairsTest.swapPairs" />
         <item itemvalue="JUnit.Problem01_ReverseStringTest.reverseString" />
         <item itemvalue="JUnit.Problem11_BinaryTreeInorderTraversalTest.inorderTraversal" />
         <item itemvalue="JUnit.Problem09_CloneGraphTest.cloneGraph" />
         <item itemvalue="JUnit.Problem08_EvaluateReversePolishNotationTest.evalRPN" />
-        <item itemvalue="JUnit.Problem07_DailyTemperaturesTest.dailyTemperatures" />
       </list>
     </recent_temporary>
   </component>
