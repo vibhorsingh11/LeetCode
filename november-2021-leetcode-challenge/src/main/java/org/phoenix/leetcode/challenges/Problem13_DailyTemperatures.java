@@ -10,7 +10,7 @@ import java.util.Stack;
  * 30 <= temperatures[i] <= 100
  */
 
-public class Problem14_DailyTemperatures {
+public class Problem13_DailyTemperatures {
     public int[] dailyTemperatures(int[] temperatures) {
         int[] ans = new int[temperatures.length];
         Stack<Integer> stack = new Stack<>();

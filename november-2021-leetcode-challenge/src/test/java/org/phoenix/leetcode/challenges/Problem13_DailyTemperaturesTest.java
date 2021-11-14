@@ -4,9 +4,9 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 
-class Problem14_DailyTemperaturesTest {
+class Problem13_DailyTemperaturesTest {
 
-    private final Problem14_DailyTemperatures test = new Problem14_DailyTemperatures();
+    private final Problem13_DailyTemperatures test = new Problem13_DailyTemperatures();
 
     @Test
     void dailyTemperatures() {
